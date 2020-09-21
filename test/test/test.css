@@ -1,0 +1,59 @@
+p {
+    color: deeppink;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: right;
+
+
+}
+
+div {
+    color: gold;
+    opacity: 0.5;
+    /*background-color: blue;*/
+    /*background-position: center;*/
+    /*background-image: url("plum.png");*/
+    /*background-size: initial;*/
+    /*background-repeat: repeat-x;*/
+
+}
+
+h1  {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+}
+h3 {
+    margin: 110px 10px 100px 20px;
+}
+
+
+ol {
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px blue;
+    color: darkred;
+
+}
+
+table {
+    padding: 5px 10px 15px 500px;
+    color: hotpink;
+
+}
+
+dl {
+    border: 8px dotted;
+    text-align: center;
+    color: plum;
+    background: darkturquoise;
+}
+
+

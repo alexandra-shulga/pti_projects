@@ -1,0 +1,146 @@
+div {
+    color: blueviolet;
+    margin: 1px 1px 1px 1px;
+    border: 50px ;
+
+}
+
+table {
+    color: #ff377b;
+    font-style: italic;
+    font-size: 30px;
+    cursor: pointer;
+    border-collapse: initial;
+    border-spacing: 10px;
+
+}
+td, th {
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+th {
+    backgroung: #bababa;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color:seagreen;
+}
+
+#igor {
+    color: darkgreen;
+}
+
+.xx {
+    font-weight: bold;
+}
+
+div .xx {
+    font-size: 20px;
+}
+
+p * {
+    border: 3px dotted #ff0044;
+}
+
+[sasha="xxx"] {
+    background: pink;
+}
+
+ol {
+    list-style-type: upper-roman;
+    /*list-style-type: lower-alpha;*/
+    /*list-style-type: decimal;*/
+
+}
+ul {
+    list-style-type: circle;
+    /*list-style-type: disc;*/
+    /*list-style-type: square;*/
+}
+#practice img {
+    width: 420px;
+    height: 100px;
+    margin: 28px;
+    float: left;
+}
+
+#practice1 {
+    border:10px dashed orangered;
+    margin: 60px;
+}
+
+.work {background: #bbbbbb;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+}
+.work1 {
+    background: #ff377b;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.work2 {
+    background: aqua;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+
+
+}
+.work3 {
+    background: #ff0044;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+
+}
+.work4 {
+    background: darkmagenta;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+
+}
+.work5 {
+    background: indianred;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+
+}
+.work6 {
+    background: lime;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.column {
+    border:5px lime;
+
+
+}
+

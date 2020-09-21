@@ -1,0 +1,133 @@
+body {
+    background-color:#e7e5c8;
+}
+
+div {
+    color: #6e6b3d;;
+}
+
+strong {
+    color: green;
+}
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color:green;
+}
+
+.header {
+    display: flex;
+}
+.logo {
+    height: 80px;
+    width: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.phone {
+    background-image: url("images/phone.png");
+    height:88px;
+    width: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.phone1 {
+    width: 274px;
+    padding-left: 225px;
+    color: #EEEEEE;
+}
+
+.content {
+    display: flex;
+
+}
+.divider {
+    flex-grow: 1;
+}
+
+.gallery{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    margin-left: 100px;
+    background-color:#dedbbb;
+    border-width:10px;
+
+}
+
+.prop {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    box-sizing: border-box;
+    height:48px;
+    margin-left: 40px;
+}
+
+.serv {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-image: url("images/elephant.jpg");
+    background-repeat: no-repeat;
+    background-position: right 70px;
+    margin-left: 40px;
+}
+
+.image {
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color:#b7b192;
+}
+
+.three {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:#b7b192
+}
+
+.butterfly {
+    margin-left: -65px;
+    margin-top: -60px;
+}
+.map {
+    display: flex;
+    flex-direction: column;
+    margin-left: 720px;
+    height: 63px;
+    width: 62px;
+}
+
+.street {
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+    margin-top: -20px;
+    font: 11px Tahoma, Arial, sans-serif;
+}
+
+.end{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+p {
+    font: 14px "Times New Roman", Times, serif;
+}
