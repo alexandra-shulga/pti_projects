@@ -1,0 +1,26 @@
+body {
+    background: #e7e5c8;
+}
+
+/*
+    Цвета и семейство шрифтов используемых на сайте
+    Удалить в конце разработки
+*/
+#delete-after-development {
+    color: #c0bd9a;
+    color: #f1f0e0;
+    color: #dedbbb;
+    color: #b7b192;
+    color: #f9f9f2;
+    color: #f5f7f9;
+    color: #969473;
+    color: #90aa1f;
+    color: #6a684d;
+    color: #727056;
+    color: #888665;
+    color: #6a6847;
+    color: #869a28;
+    color: #6e6b3d;
+    font: 11px Tahoma, Arial, sans-serif;
+    font: 14px "Times New Roman", Times, serif;
+}
