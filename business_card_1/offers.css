@@ -1,0 +1,59 @@
+body {
+    color: #424242;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.column {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+
+.seo {
+    display: flex;
+
+}
+
+.consulting {
+    display: flex;
+}
+
+.programming {
+    display: flex;
+}
+
+.footer {
+    background-color: dimgray;
+    height: 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
