@@ -1,15 +1,142 @@
 body {
     color: #424242;
     font: 14px Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.contact_us {
-
-}
-.form {
-    width: 100px;
+.body {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+}
+
+.header {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 600px;
+}
+
+.left {
+    flex-basis: 50%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    flex-basis: 50%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    width: 300px;
+    height: 100%;
+}
+
+.color1 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height:10px;
+    background-color: orange;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.menu-item:hover {
+    background-color: grey;
+    background-image: linear-gradient(
+            to bottom,
+            hsl(0, 0%, 100%),
+            hsl(0, 0%, 50%)
+    );
+    cursor: pointer;
+}
+
+.menu-item:hover .color1 {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.menu-item:hover .color2 {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.menu-item:hover .color3 {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.menu-item:hover .tooltip {
+    display: flex;
+}
+
+.tooltip {
+    position: absolute;
+    background-image: url("images/tip.png");
+    width: 211px;
+    height: 58px;
+    transform: translate(-50%, 150%);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.tooltip > span {
+    transform: translate(0, 8px);
+}
+
+.menu-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.color2 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height:10px;
+    background-color: cadetblue;
+}
+
+.color3 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height:10px;
+    background-color: darkslategrey;
+}
+
+.description {
+    display: flex;
+    background-color: dimgray;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contact-parent {
+    display: flex;
+    width: 600px;
+}
+
+.contact-content {
+    display: flex;
 }
 
 textarea {
@@ -27,3 +154,72 @@ textarea {
     color: white;
 }
 
+.contact > h1 {
+    color: white;
+    font-family: Calibri, sans-serif;
+}
+
+.contact-text > p {
+    color: white;
+}
+
+.contact_us {
+    align-items: center;
+    flex-grow: 1;
+}
+
+.height {
+    display: flex;
+}
+
+.contact-form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    height: 600px;
+}
+
+.form-labels {
+    display: flex;
+    flex-direction: column;
+    padding-right: 4px;
+}
+
+.form-labels > label {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs > input {
+    height: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form-inputs > textarea {
+    margin-top: 4px;
+}
+
+.form-inputs > button {
+    margin-top: 8px;
+}
+
+.us {
+    align-self: flex-start;
+}
+
+.welcome > h1 {
+    color: white;
+    font-family: Calibri, sans-serif;
+}
