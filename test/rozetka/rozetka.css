@@ -5,12 +5,19 @@
     text-align: center;
 
 }
+
+.column {
+    width: 240px;
+    border: 1px solid #d6d3d3;
+    border-left-color: white;
+    border-top-color: white;
+}
+
 b {
     color: red;
 }
+
 i {
-    font-family: cursive;
-    font-family: "Javanese Text";
     font-size: 12px;
 }
 
@@ -21,5 +28,13 @@ p {
 
 h1 {
     color: green;
+}
+
+a {
+    color: red;
+}
+
+.like {
+    padding-left: 200px;
 }
 
