@@ -9,6 +9,7 @@ div {
 strong {
     color: green;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -20,15 +21,17 @@ a {
 .header {
     display: flex;
 }
+
 .logo {
     height: 80px;
-    width: 82px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
     box-sizing: border-box;
 }
+
 .phone {
     background-image: url("images/phone.png");
     height:88px;
@@ -39,18 +42,33 @@ a {
     padding-top: 20px;
     box-sizing: border-box;
 }
-.phone1 {
-    width: 274px;
-    padding-left: 225px;
-    color: #EEEEEE;
+
+.phone2 > strong {
+    width: 260px;
+    padding-left: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+.phone1 > strong {
+    width: 280px;
+    color: white;
 }
 
 .content {
     display: flex;
-
 }
-.divider {
-    flex-grow: 1;
+
+/*.divider {*/
+/*    flex-grow: 1;*/
+
+/*}*/
+
+hr {
+    width: 1295px;
+    border-left: 2px;
+    padding-left: 20px;
+    color: #b7b192;
 }
 
 .gallery{
@@ -58,6 +76,7 @@ a {
     display: flex;
     flex-direction: column;
 }
+
 .gallery-images {
     display: flex;
     flex-wrap: wrap;
@@ -65,10 +84,11 @@ a {
 
 .footer {
     display: flex;
+    width:  940px;
     margin-left: 100px;
     background-color:#dedbbb;
     border-width:10px;
-
+    justify-content: center;
 }
 
 .prop {
@@ -84,22 +104,29 @@ a {
     display: flex;
     flex-direction: column;
     width: 250px;
+    height: 220px;
     background-image: url("images/elephant.jpg");
     background-repeat: no-repeat;
     background-position: right 70px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
+.image > img {
+    display: flex;
+    flex-direction: column;
+}
 .image {
-    padding: 5px;
+    padding: 3px 20px 3px 3px;
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: 6px;
     background-color:#b7b192;
+    margin: 6px;
 }
 
 .three {
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
     background-color:#b7b192
 }
 
@@ -107,10 +134,11 @@ a {
     margin-left: -65px;
     margin-top: -60px;
 }
+
 .map {
     display: flex;
     flex-direction: column;
-    margin-left: 720px;
+    margin-left: 520px;
     height: 63px;
     width: 62px;
 }
@@ -118,7 +146,7 @@ a {
 .street {
     display: flex;
     flex-direction: column;
-    margin-left: 700px;
+    margin-left: 520px;
     margin-top: -20px;
     font: 11px Tahoma, Arial, sans-serif;
 }
@@ -130,4 +158,63 @@ a {
 
 p {
     font: 14px "Times New Roman", Times, serif;
+}
+
+.content > img {
+    height: 420px;
+    width: 560px;
+    padding-left: 120px;
+}
+
+.about-us {
+    width: 360px;
+}
+
+li {
+    text-decoration-line: underline;
+}
+
+h2 {
+    padding-left: 40px;
+}
+
+.footer1 {
+    display: flex;
+    height: 200px;
+}
+
+.ending1 {
+    padding-left: 54px
+}
+
+.center {
+    padding-left: 510px;
+}
+
+.vertical {
+    border-left: 2px solid #b7b192;
+    height: 211px;
+    position: absolute;
+    left: 424px;
+}
+
+.vertical1 {
+    border-left: 2px solid #b7b192;
+    height: 211px;
+    position: absolute;
+    left: 700px;
+}
+
+.vertical2 {
+    border-left: 2px solid whitesmoke;
+    height: 211px;
+    position: absolute;
+    left: 422px;
+}
+
+.vertical3 {
+    border-left: 2px solid whitesmoke;
+    height: 211px;
+    position: absolute;
+    left: 698px;
 }
