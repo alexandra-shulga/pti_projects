@@ -1,21 +1,21 @@
 body {
-    background-color:#e7e5c8;
+    background-color: #e7e5c8;
 }
 
 div {
-    color: #6e6b3d;;
+    color: #6e6b3d;
 }
 
 strong {
-    color: green;
+    color: #88c130;
+}
+
+a {
+    color: #88c130;
 }
 
 a:hover {
     text-decoration: none;
-}
-
-a {
-    color:green;
 }
 
 .header {
@@ -43,14 +43,14 @@ a {
     box-sizing: border-box;
 }
 
-.phone2 > strong {
+.phone2 strong {
     width: 260px;
     padding-left: 70px;
     color: white;
     cursor: pointer;
 }
 
-.phone1 > strong {
+.phone1 strong {
     width: 280px;
     color: white;
 }
@@ -58,11 +58,6 @@ a {
 .content {
     display: flex;
 }
-
-/*.divider {*/
-/*    flex-grow: 1;*/
-
-/*}*/
 
 hr {
     width: 912px;
@@ -75,6 +70,7 @@ hr {
     width: 240px;
     display: flex;
     flex-direction: column;
+    border-right: 1px solid #fff;
 }
 
 .gallery-images {
@@ -84,42 +80,45 @@ hr {
 
 .footer {
     display: flex;
-    width:  940px;
+    width: 940px;
     margin-left: 283px;
-    background-color:#dedbbb;
-    border-width:10px;
+    background-color: #dedbbb;
+    border-width: 10px;
     justify-content: center;
+    padding: 10px 0;
 }
 
 .prop {
     display: flex;
     flex-direction: column;
-    width: 210px;
     box-sizing: border-box;
-    height:48px;
-    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid #b7b192;
+    border-right: 1px solid #fff;
 }
 
 .serv {
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 220px;
     background-image: url("images/elephant.jpg");
     background-repeat: no-repeat;
     background-position: right 70px;
-    margin-left: 80px;
+    border-left: 1px solid #b7b192;
+    padding-left: 20px;
 }
 
-.image > img {
+.image img {
     display: flex;
     flex-direction: column;
 }
+
 .image {
     padding: 3px 20px 3px 3px;
     box-sizing: border-box;
     border-radius: 6px;
-    background-color:#b7b192;
+    background-color: #b7b192;
     margin: 6px;
 }
 
@@ -127,7 +126,7 @@ hr {
     box-sizing: border-box;
     border-radius: 5px;
     padding: 3px 3px 3px 3px;
-    background-color:#b7b192
+    background-color: #b7b192
 }
 
 .butterfly {
@@ -160,7 +159,7 @@ p {
     font: 14px "Times New Roman", Times, serif;
 }
 
-.content > img {
+.content img {
     height: 420px;
     width: 510px;
     padding-left: 287px;
@@ -193,7 +192,6 @@ h2 {
 }
 
 .vertical {
-    border-left: 2px solid #b7b192;
     height: 211px;
     position: absolute;
     left: 611px;
