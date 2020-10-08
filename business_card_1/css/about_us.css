@@ -18,6 +18,8 @@ body {
 
 .logo {
     width: 600px;
+    height: 140px;
+    cursor: pointer;
 }
 
 .left {
@@ -134,12 +136,16 @@ body {
 }
 
 .description {
+    background-color: grey;
+    background-image:linear-gradient(
+            to bottom,
+            hsl(0deg, 6%, 17%),
+            hsl(0, 0%, 50%)
+    );
     display: flex;
-    background-color: dimgray;
     align-items: center;
     flex-shrink: 0;
 }
-
 
 .welcome-parent {
     display: flex;
@@ -165,6 +171,7 @@ body {
 .indent {
     width: 10px;
 }
+
 .content {
     display: flex;
     align-items: center;
@@ -189,8 +196,9 @@ body {
     flex-shrink: 0;
 }
 
-.copyright > p {
+.copyright {
     color: white;
+    display: flex;
 }
 
 .welcome > h1 {
@@ -204,4 +212,13 @@ body {
 
 .height {
     height: 600px;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 14px;
 }

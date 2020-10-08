@@ -18,6 +18,8 @@ body {
 
 .logo {
     width: 600px;
+    height: 140px;
+    cursor: pointer;
 }
 
 .left {
@@ -124,8 +126,13 @@ body {
 }
 
 .description {
+    background-color: grey;
+    background-image:linear-gradient(
+            to bottom,
+            hsl(0deg, 6%, 17%),
+            hsl(0, 0%, 50%)
+    );
     display: flex;
-    background-color: dimgray;
     align-items: center;
     flex-shrink: 0;
 }
@@ -146,12 +153,17 @@ textarea {
 
 .footer {
     background-color: dimgray;
-    height: 30px;
+    height: 40px;
 }
 
 .copyright {
-    text-align: center;
+    justify-content: center;
     color: white;
+    display: flex;
+}
+
+.copyright > p {
+    margin-top: 4px;
 }
 
 .contact > h1 {
@@ -213,6 +225,7 @@ textarea {
 
 .form-inputs > button {
     margin-top: 8px;
+    width: 55px
 }
 
 .us {
@@ -222,4 +235,13 @@ textarea {
 .welcome > h1 {
     color: white;
     font-family: Calibri, sans-serif;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 14px;
 }
