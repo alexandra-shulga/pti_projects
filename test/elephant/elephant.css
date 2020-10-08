@@ -190,30 +190,3 @@ h2 {
 .center {
     padding-left: 274px;
 }
-
-.vertical {
-    height: 211px;
-    position: absolute;
-    left: 611px;
-}
-
-.vertical1 {
-    border-left: 2px solid #b7b192;
-    height: 211px;
-    position: absolute;
-    left: 900px;
-}
-
-.vertical2 {
-    border-left: 2px solid whitesmoke;
-    height: 211px;
-    position: absolute;
-    left: 610px;
-}
-
-.vertical3 {
-    border-left: 2px solid whitesmoke;
-    height: 211px;
-    position: absolute;
-    left: 899px;
-}
