@@ -24,7 +24,7 @@ a {
 
 .logo {
     height: 80px;
-    width: 300px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,7 +65,7 @@ a {
 /*}*/
 
 hr {
-    width: 1295px;
+    width: 912px;
     border-left: 2px;
     padding-left: 20px;
     color: #b7b192;
@@ -85,7 +85,7 @@ hr {
 .footer {
     display: flex;
     width:  940px;
-    margin-left: 100px;
+    margin-left: 283px;
     background-color:#dedbbb;
     border-width:10px;
     justify-content: center;
@@ -153,7 +153,7 @@ hr {
 
 .end{
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 290px;
 }
 
 p {
@@ -162,12 +162,13 @@ p {
 
 .content > img {
     height: 420px;
-    width: 560px;
-    padding-left: 120px;
+    width: 510px;
+    padding-left: 287px;
 }
 
 .about-us {
     width: 360px;
+    padding-left: 70px;
 }
 
 li {
@@ -188,33 +189,33 @@ h2 {
 }
 
 .center {
-    padding-left: 510px;
+    padding-left: 274px;
 }
 
 .vertical {
     border-left: 2px solid #b7b192;
     height: 211px;
     position: absolute;
-    left: 424px;
+    left: 611px;
 }
 
 .vertical1 {
     border-left: 2px solid #b7b192;
     height: 211px;
     position: absolute;
-    left: 700px;
+    left: 900px;
 }
 
 .vertical2 {
     border-left: 2px solid whitesmoke;
     height: 211px;
     position: absolute;
-    left: 422px;
+    left: 610px;
 }
 
 .vertical3 {
     border-left: 2px solid whitesmoke;
     height: 211px;
     position: absolute;
-    left: 698px;
+    left: 899px;
 }
