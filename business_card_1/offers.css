@@ -259,3 +259,79 @@ h2 {
 p {
     color: darkslategray;
 }
+
+/* =Menu
+------------------------------------------------- */
+.menu2 {
+    display: flex;
+}
+
+.menu2 .item {
+    border-top: 10px solid red;
+    width: 100px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    position: relative;
+}
+
+.menu2 .item:hover {
+    border-top-color: grey;
+    background-image: linear-gradient(to bottom, hsl(0, 0%, 100%), hsl(0, 0%, 50%));
+}
+
+.menu2 .item-about-us {
+    border-top-color: orange;
+}
+
+.menu2 .item-offers {
+    border-top-color: cadetblue;
+}
+
+.menu2 .item-contact-us {
+    border-top-color: darkslategrey;
+}
+
+.menu2 .item span {
+    position: absolute;
+    right: 50%;
+    top: 60%;
+    background-image: url(images/tip.png);
+    width: 211px;
+    height: 58px;
+    line-height: normal;
+    padding-top: 26px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.menu2 .item:hover span {
+    display: block;
+}
+
+/* =Content: offers
+------------------------------------------------- */
+.content-offers {
+    width: 890px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.offer {
+    width: 33.33%;
+    border-left: 8px solid lightgray;
+    padding-left: 10px;
+}
+
+.offer h2 {
+    background: url("images/dot.jpg") no-repeat 0 0;
+    padding: 10px 0 10px 19px;
+}
+
+/* :first-child */
+/* :nth-child(2) */
+/* :nth-child(odd) */
+/* :nth-child(even) */
+.offer:last-child {
+     border-right: 8px solid lightgray;
+}
