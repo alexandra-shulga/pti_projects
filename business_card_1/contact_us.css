@@ -20,6 +20,7 @@ body {
     width: 600px;
     height: 140px;
     cursor: pointer;
+    margin-right: -145px;
 }
 
 .left {
@@ -30,10 +31,10 @@ body {
 }
 
 .right {
-    flex-basis: 50%;
     align-items: flex-start;
     display: flex;
     flex-direction: column;
+    margin-left: 135px;
 }
 
 .menu {
@@ -46,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100px;
-    height:10px;
+    height: 10px;
     background-color: orange;
 }
 
@@ -97,7 +98,7 @@ body {
     justify-content: center;
 }
 
-.tooltip > span {
+.tooltip span {
     transform: translate(0, 8px);
 }
 
@@ -113,7 +114,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100px;
-    height:10px;
+    height: 10px;
     background-color: cadetblue;
 }
 
@@ -121,25 +122,37 @@ body {
     display: flex;
     flex-direction: column;
     width: 100px;
-    height:10px;
+    height: 10px;
     background-color: darkslategrey;
+}
+
+.rectangle {
+    background-color: gray;
+    width: 8px;
+    height: 72px;
+}
+
+.indent {
+    width: 10px;
 }
 
 .description {
     background-color: grey;
-    background-image:linear-gradient(
+    background-image: linear-gradient(
             to bottom,
-            hsl(0deg, 6%, 17%),
+            hsl(0, 6%, 17%),
             hsl(0, 0%, 50%)
     );
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    height: 120px;
 }
 
 .contact-parent {
     display: flex;
     width: 600px;
+    margin-right: -155px;
 }
 
 .contact-content {
@@ -162,16 +175,15 @@ textarea {
     display: flex;
 }
 
-.copyright > p {
+.copyright p {
     margin-top: 4px;
 }
 
-.contact > h1 {
+.contact h1 {
     color: white;
-    font-family: Calibri, sans-serif;
 }
 
-.contact-text > p {
+.contact-text p {
     color: white;
 }
 
@@ -188,6 +200,8 @@ textarea {
     width: 600px;
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
+    margin-right: -155px
 }
 
 .form {
@@ -201,8 +215,9 @@ textarea {
     padding-right: 4px;
 }
 
-.form-labels > label {
+.form-labels label {
     height: 34px;
+    width: 90px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -213,17 +228,17 @@ textarea {
     flex-direction: column;
 }
 
-.form-inputs > input {
+.form-inputs input {
     height: 20px;
     margin-top: 4px;
     margin-bottom: 4px;
 }
 
-.form-inputs > textarea {
+.form-inputs textarea {
     margin-top: 4px;
 }
 
-.form-inputs > button {
+.form-inputs button {
     margin-top: 8px;
     width: 55px
 }
@@ -232,16 +247,23 @@ textarea {
     align-self: flex-start;
 }
 
-.welcome > h1 {
-    color: white;
-    font-family: Calibri, sans-serif;
-}
-
 a {
-    color: black;
+    color: darkslategray;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 h1 {
     color: white;
-    font-size: 14px;
+    font: 18px Arial, Helvetica, sans-serif;
+}
+
+.privacy h1 {
+    text-decoration: underline;
+}
+
+h2 {
+    font: 18px Arial, Helvetica, sans-serif;
+    margin-bottom: -6px;
+    padding: 0;
 }
