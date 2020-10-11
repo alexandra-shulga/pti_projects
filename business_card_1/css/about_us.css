@@ -242,3 +242,16 @@ h2 {
     height: 87px;
     width: 86px;
 }
+
+/* =Offers2
+------------------------------------------------- */
+.offers2 .offer {
+    border-left: 8px solid lightgray;
+    margin-bottom: 20px;
+    padding: 10px 90px 10px 10px;
+    background: url("../images/p1.jpg") no-repeat right 0;
+}
+
+.offers2 .offer2 {
+    background-image: url("../images/p2.jpg");
+}

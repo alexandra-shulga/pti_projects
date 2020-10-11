@@ -267,3 +267,21 @@ h2 {
     margin-bottom: -6px;
     padding: 0;
 }
+
+/* =Form
+------------------------------------------------- */
+.form2 .field {
+    margin-bottom: 8px;
+}
+
+.form2 .field label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 3px;
+}
+
+.form2 button {
+    margin-left: 93px;
+}

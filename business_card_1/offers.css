@@ -317,13 +317,13 @@ p {
     display: flex;
 }
 
-.offer {
+.content-offers .offer {
     width: 33.33%;
     border-left: 8px solid lightgray;
     padding-left: 10px;
 }
 
-.offer h2 {
+.content-offers .offer h2 {
     background: url("images/dot.jpg") no-repeat 0 0;
     padding: 10px 0 10px 19px;
 }
@@ -332,6 +332,6 @@ p {
 /* :nth-child(2) */
 /* :nth-child(odd) */
 /* :nth-child(even) */
-.offer:last-child {
+.content-offers .offer:last-child {
      border-right: 8px solid lightgray;
 }
