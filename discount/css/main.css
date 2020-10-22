@@ -29,6 +29,8 @@
 /*    height: 120px;*/
 /*}*/
 
+/* =Header
+------------------------------------------------- */
 .up {
     display: flex;
 }
@@ -37,45 +39,24 @@
     margin: 0 200px;
 }
 
-.page {
+.menu {
     display: flex;
-    margin-left: 270px;
+    margin-left: 245px;
     margin-top: 33px;
 }
 
-.page .item {
+.menu .item {
+    padding: 5px 15px;
     border-top: 8px solid transparent;
 }
 
-.page .item:hover{
+.menu .item:hover {
     border-top-color: #584949;
-}
-
-.page .item-about-us{
-    padding: 5px 15px;
-}
-
-.page .item-participants{
-    padding: 5px 15px;
-}
-
-.page .item-entrepreneurs{
-    padding: 5px 15px;
-}
-
-.page .item-contacts{
-    padding: 5px;
 }
 
 a {
     color: #a1a7ad;
     text-decoration: none;
-}
-
-.all {
-    text-decoration: underline;
-    margin-left: 300px;
-    margin-top: 18px;;
 }
 
 hr {
@@ -84,7 +65,9 @@ hr {
     margin-right: 200px;
 }
 
-.header  {
+/* =Motto
+------------------------------------------------- */
+.motto {
     background-color: #5c4549;
     border: 1px solid #7b685e;
     margin-left: 54px;
@@ -98,7 +81,7 @@ h1, h2, p {
     color: #a1a7ad;
 }
 
-.header2 p {
+.address p {
     color: #a1a7ad;
     font-size: 12px;
 }
@@ -107,7 +90,7 @@ i {
     color: #a1a7ad;
 }
 
-.header2 {
+.address {
     margin-left: 240px;
     margin-right: 965px;
     background-color: #443e43;
@@ -148,19 +131,23 @@ label {
     text-align: right;
 }
 
-.images-menu {
-    display: flex;
-    height: 400px;
+/* =Content: participants
+------------------------------------------------- */
+.participants-all {
+    float: right;
 }
 
-.placeholder {
+.participants-gallery {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.placeholder-menu img {
+.participants-gallery .item img {
     height: 100px;
     width: 100px;
+    margin: 0 10px 10px 0;
+    border: 10px solid white;
 }
 
 .contacts {
