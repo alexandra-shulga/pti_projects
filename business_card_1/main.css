@@ -37,100 +37,6 @@ body {
     margin-left: 135px;
 }
 
-.menu {
-    display: flex;
-    width: 300px;
-    height: 100%;
-}
-
-.column menu {
-    display: flex;
-    flex: initial;
-}
-
-.color1 {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 10px;
-    background-color: orange;
-}
-
-.menu-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.menu-item:hover {
-    background-color: grey;
-    background-image: linear-gradient(
-            to bottom,
-            hsl(0, 0%, 100%),
-            hsl(0, 0%, 50%)
-    );
-    cursor: pointer;
-}
-
-.menu-item:hover .color1 {
-    background-color: grey;
-    cursor: pointer;
-}
-
-.menu-item:hover .color2 {
-    background-color: grey;
-    cursor: pointer;
-}
-
-.menu-item:hover .color3 {
-    background-color: grey;
-    cursor: pointer;
-}
-
-.menu-item:hover .tooltip {
-    display: flex;
-}
-
-.tooltip {
-    position: absolute;
-    background-image: url("images/tip.png");
-    width: 211px;
-    height: 58px;
-    transform: translate(-50%, 150%);
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-
-.tooltip span {
-    transform: translate(0, 8px);
-}
-
-.menu-label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    justify-content: center;
-}
-
-.color2 {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 10px;
-    background-color: cadetblue;
-}
-
-.color3 {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 10px;
-    background-color: darkslategrey;
-}
-
 .description {
     background-color: grey;
     background-image:linear-gradient(
@@ -155,41 +61,11 @@ body {
     position: relative;
 }
 
-.column {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    width: 260px;
-}
-
-.content1 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-}
-
-.content2 {
-    display: flex;
-    flex-direction: column;
-    width: 260px;
-}
-
-.seo {
-    display: flex;
-}
-
-.consulting {
-    display: flex;
-}
-
-.programming {
-    display: flex;
-}
+/*.column {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin-top: 10px;*/
+/*}*/
 
 .footer {
     background-color: dimgray;
@@ -208,33 +84,16 @@ body {
     margin-right: -155px;
 }
 
-.offers-content {
-    display: flex;
-}
-
 .offers-text p {
     color: white;
+    border-left: 8px solid lightgray;
+    padding-left: 10px;
+    padding-bottom: 8px;
 }
 
 .height {
-    height: 600px;
-    padding-top: 30px;
-}
-
-.rectangle {
-    background-color: gray;
-    width: 8px;
-    height: 72px;
-}
-
-.rectangle1 {
-    background-color: lightgray;
-    width: 8px;
-    height: 160px;
-}
-
-.indent {
-    width: 10px;
+    height: 500px;
+    margin-left: 110px;
 }
 
 a {
@@ -315,6 +174,7 @@ p {
     width: 890px;
     margin: 0 auto;
     display: flex;
+    margin-top: 20px;
 }
 
 .content-offers .offer {
@@ -335,3 +195,96 @@ p {
 .content-offers .offer:last-child {
      border-right: 8px solid lightgray;
 }
+
+/* =Content: contact us
+------------------------------------------------- */
+
+.us {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+    padding-top: 30px;
+}
+
+.contact-parent {
+    display: flex;
+    width: 600px;
+    margin-right: -155px;
+}
+
+.contact h1 {
+    margin-bottom: -5px;
+}
+
+.contact-text p {
+    color: white;
+    border-left: 8px solid lightgray;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+
+.contact-content {
+    display: flex;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.form2 .field {
+    margin-bottom: 8px;
+}
+
+.form2 .field label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 3px;
+}
+
+.form2 button {
+    margin-left: 93px;
+}
+
+/* =Content: about us
+------------------------------------------------- */
+
+.welcome-parent {
+    display: flex;
+    width: 600px;
+    margin-right: -155px;
+}
+
+.welcome-content {
+    display: flex;
+}
+
+.welcome h1 {
+    margin-bottom: -5px;
+}
+
+.welcome-text p {
+    color: white;
+    border-left: 8px solid lightgray;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+
+.offers2 .offer {
+    border-left: 8px solid lightgray;
+    margin-bottom: 20px;
+    padding: 10px 90px 10px 10px;
+    background: url("/images/p1.jpg") no-repeat right 0;
+}
+
+.offers2 .offer2 {
+    background-image: url("/images/p2.jpg");
+}
+

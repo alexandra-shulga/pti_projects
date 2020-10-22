@@ -1,26 +1,16 @@
-﻿* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html,
-body {
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #473B38;
     height: 100%;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #473B38;
-}
-
-.page {
-    width: 950px;
-    margin: 0 auto;
-    min-height: 100%;
-    padding-bottom: 120px;
-    position: relative;
-}
+/*.page {*/
+/*    width: 950px;*/
+/*    margin: 0 auto;*/
+/*    min-height: 100%;*/
+/*    padding-bottom: 120px;*/
+/*    position: relative;*/
+/*}*/
 
 /* ---------------------------------------- Content */
 
@@ -31,10 +21,201 @@ body {
 
 /* ---------------------------------------- Footer */
 
+/*.footer {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    border-top: 1px solid #6A5455;*/
+/*    height: 120px;*/
+/*}*/
+
+.up {
+    display: flex;
+}
+
+.logo {
+    margin: 0 200px;
+}
+
+.page {
+    display: flex;
+    margin-left: 270px;
+    margin-top: 33px;
+}
+
+.page .item {
+    border-top: 8px solid transparent;
+}
+
+.page .item:hover{
+    border-top-color: #584949;
+}
+
+.page .item-about-us{
+    padding: 5px 15px;
+}
+
+.page .item-participants{
+    padding: 5px 15px;
+}
+
+.page .item-entrepreneurs{
+    padding: 5px 15px;
+}
+
+.page .item-contacts{
+    padding: 5px;
+}
+
+a {
+    color: #a1a7ad;
+    text-decoration: none;
+}
+
+.all {
+    text-decoration: underline;
+    margin-left: 300px;
+    margin-top: 18px;;
+}
+
+hr {
+    color: #bbb1b1;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header  {
+    background-color: #5c4549;
+    border: 1px solid #7b685e;
+    margin-left: 54px;
+    margin-right: 970px;
+    padding-left: 150px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+}
+
+h1, h2, p {
+    color: #a1a7ad;
+}
+
+.header2 p {
+    color: #a1a7ad;
+    font-size: 12px;
+}
+
+i {
+    color: #a1a7ad;
+}
+
+.header2 {
+    margin-left: 240px;
+    margin-right: 965px;
+    background-color: #443e43;
+    padding: 50px 15px;
+    margin-top: 25px;
+    border-radius: 10px
+}
+
+button {
+    padding: 5px 87px;
+    background-image: linear-gradient(to bottom, hsl(183deg 85% 58%), hsl(180deg 25% 36%));
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, hsl(183deg 85% 58%), hsl(180deg 25% 36%));
+}
+
+h3 {
+    color: #6cb9b9;
+}
+
+h4 {
+    color: #6cb9b9;
+}
+
+ol {
+    color: #a1a7ad;
+}
+
+p {
+    color: #a1a7ad;
+}
+
+label {
+    color: #a1a7ad;
+    text-align: right;
+}
+
+.images-menu {
+    display: flex;
+    height: 400px;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder-menu img {
+    height: 100px;
+    width: 100px;
+}
+
+.contacts {
+    height: 240px;
+}
+
+.content-form {
+    margin-bottom: 120px;
+    padding-left: 355px;
+}
+
+.content-form .field label {
+    display: inline-block;
+    width: 155px;
+    padding: 3px 10px;
+    margin-left: -80px;
+}
+
+.label label {
+    width: 95px;
+}
+
+.content-form button {
+    padding: 5px 87px;
+    margin-top: 15px;
+}
+
+.content {
+    margin-left: 565px;
+    margin-top: -550px;
+    padding-left: 40px;
+    padding-right: 200px;
+    margin-bottom: 280px;
+    background: url("../images/2.jpg") no-repeat left 0;
+}
+
+.content h4 {
+    color: #6cb9b9;
+}
+
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-top: 1px solid #6A5455;
-    height: 120px;
+    display: flex;
+}
+
+.img {
+    margin-left: 200px;
+}
+
+.text {
+    margin-left: 10px;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.footer-href {
+    text-decoration: underline;
+    color: #ffffff;
 }
