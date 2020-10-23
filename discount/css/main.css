@@ -1,140 +1,181 @@
-﻿body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #473B38;
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
     height: 100%;
 }
 
-/*.page {*/
-/*    width: 950px;*/
-/*    margin: 0 auto;*/
-/*    min-height: 100%;*/
-/*    padding-bottom: 120px;*/
-/*    position: relative;*/
-/*}*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #473B38;
+}
 
-/* ---------------------------------------- Content */
+.page {
+    width: 950px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-bottom: 120px;
+    position: relative;
+}
 
-/*
-    Для голубых заголовков
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-*/
+.columns {
+    display: flex;
+    padding-top: 30px;
+}
 
-/* ---------------------------------------- Footer */
+.column_left {
+    width: 33.33%;
+}
 
-/*.footer {*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
-/*    border-top: 1px solid #6A5455;*/
-/*    height: 120px;*/
-/*}*/
+.column_right {
+    width: 66.66%;
+    padding-left: 40px;
+}
+
+button {
+    font-size: 14px;
+    padding: 10px 87px;
+    background-image: linear-gradient(to bottom, hsl(183deg 85% 58%), hsl(180deg 25% 36%));
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 /* =Header
 ------------------------------------------------- */
-.up {
-    display: flex;
-}
-
-.logo {
-    margin: 0 200px;
+.header {
+    border-bottom: 1px solid #bbb1b1;
+    padding: 15px 0 10px;
 }
 
 .menu {
     display: flex;
-    margin-left: 245px;
-    margin-top: 33px;
+    float: right;
+    margin-top: 31px;
 }
 
 .menu .item {
-    padding: 5px 15px;
+    padding: 5px 0 0 0;
+    margin: 0 15px;
     border-top: 8px solid transparent;
+    color: #a1a7ad;
+    text-decoration: none;
+}
+
+.menu .item:last-child {
+    margin-right: 0;
 }
 
 .menu .item:hover {
     border-top-color: #584949;
 }
 
-a {
-    color: #a1a7ad;
-    text-decoration: none;
-}
-
-hr {
-    color: #bbb1b1;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-/* =Motto
+/* =Left column
 ------------------------------------------------- */
 .motto {
     background-color: #5c4549;
     border: 1px solid #7b685e;
-    margin-left: 54px;
-    margin-right: 970px;
-    padding-left: 150px;
-    padding-bottom: 9px;
-    padding-top: 10px;
+    width: 400px;
+    padding: 17px 10px 17px 108px;
+    margin: 0 0 20px -84px;
+    font-size: 14px;
+    color: #decacb;
 }
 
-h1, h2, p {
-    color: #a1a7ad;
+.motto p:first-child {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-
-.address p {
-    color: #a1a7ad;
-    font-size: 12px;
-}
-
-i {
-    color: #a1a7ad;
+.motto p:first-child b {
+    font-size: 23px;
 }
 
 .address {
-    margin-left: 240px;
-    margin-right: 965px;
-    background-color: #443e43;
-    padding: 50px 15px;
-    margin-top: 25px;
+    padding: 22px 10px 35px 10px;
+    background-color: #3c322f;
     border-radius: 10px
 }
 
-button {
-    padding: 5px 87px;
-    background-image: linear-gradient(to bottom, hsl(183deg 85% 58%), hsl(180deg 25% 36%));
-    color: white;
-    cursor: pointer;
+.address p {
+    color: #988c8b;
+    font-size: 12px;
+    margin-bottom: 30px;
 }
 
-button:hover {
-    background-image: linear-gradient(to bottom, hsl(183deg 85% 58%), hsl(180deg 25% 36%));
+.address .address_address {
+    color: #fff;
+    font-style: italic;
 }
 
-h3 {
+/* =Right column
+------------------------------------------------- */
+.content h4 {
+    font-size: 14px;
     color: #6cb9b9;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
-h4 {
-    color: #6cb9b9;
+.content p,
+.content ol {
+    font-size: 13px;
+    color: #cdbfbf;
+    margin-bottom: 20px;
 }
 
-ol {
-    color: #a1a7ad;
-}
-
-p {
-    color: #a1a7ad;
-}
-
-label {
-    color: #a1a7ad;
+.application-form {
+    background: url("../images/2.jpg") no-repeat left 0;
+    padding-left: 295px;
+    min-height: 195px;
+    margin-bottom: 10px;
     text-align: right;
 }
 
-/* =Content: participants
-------------------------------------------------- */
+.application-form h3 {
+    font-size: 16px;
+    color: #6cb9b9;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.application-form .field {
+    margin-bottom: 10px;
+}
+
+.application-form input {
+    width: 168px;
+}
+
+.application-form .action {
+    padding-top: 10px;
+}
+
+.application-form label {
+    color: #a1a7ad;
+    font-size: 12px;
+    text-align: right;
+}
+
+/* --------------- Participants */
+.participants-economy {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
 .participants-all {
     float: right;
+    color: #decacb;
+    font-size: 12px;
 }
 
 .participants-gallery {
@@ -143,66 +184,37 @@ label {
     flex-wrap: wrap;
 }
 
+.participants-gallery .item {
+    margin: 0 17px 17px 0;
+}
+
+.participants-gallery .item:nth-child(5n) {
+    margin-right: 0;
+}
+
 .participants-gallery .item img {
-    height: 100px;
-    width: 100px;
-    margin: 0 10px 10px 0;
-    border: 10px solid white;
+    height: 105px;
+    width: 105px;
+    border: 10px solid #3c312f;
 }
 
-.contacts {
-    height: 240px;
-}
-
-.content-form {
-    margin-bottom: 120px;
-    padding-left: 355px;
-}
-
-.content-form .field label {
-    display: inline-block;
-    width: 155px;
-    padding: 3px 10px;
-    margin-left: -80px;
-}
-
-.label label {
-    width: 95px;
-}
-
-.content-form button {
-    padding: 5px 87px;
-    margin-top: 15px;
-}
-
-.content {
-    margin-left: 565px;
-    margin-top: -550px;
-    padding-left: 40px;
-    padding-right: 200px;
-    margin-bottom: 280px;
-    background: url("../images/2.jpg") no-repeat left 0;
-}
-
-.content h4 {
-    color: #6cb9b9;
-}
-
+/* =Footer
+------------------------------------------------- */
 .footer {
-    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #6A5455;
+    height: 120px;
+    padding-top: 15px;
 }
 
-.img {
-    margin-left: 200px;
+.footer img {
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-.text {
-    margin-left: 10px;
-    padding-top: 40px;
-    font-size: 16px;
-}
-
-.footer-href {
-    text-decoration: underline;
+.footer a {
     color: #ffffff;
+    font-size: 13px;
 }
