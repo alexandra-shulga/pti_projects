@@ -1,5 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-image: url("../images/1.gif");
 }
 
 /*
@@ -9,3 +21,113 @@ body {
     Для меню выше и ниже контента используется
     font-family: "Times New Roman", Times, serif;
 */
+
+.header {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #000;
+    display: flex;
+    height: 31px;
+}
+
+.select {
+    margin-inline-start: auto;
+    padding: 7px 15px 7px 0;
+    font-size: 12px;
+}
+
+.header p {
+    text-align: right;
+    color: #fff;
+
+}
+
+.menu1 {
+    text-align: center;
+    margin-left: 370px;
+}
+
+.page {
+    width: 726px;
+    margin: 0 auto;
+    background-color: #000;
+    border: 2px solid #a36917;
+}
+
+.left {
+    padding: 13px 0 0 14px;
+}
+
+.right {
+    padding: 10px 10px 0 20px;
+}
+
+.menu2 .item {
+    padding: 0 18px 0 30px;
+    margin: 8px;
+    border-right: 1px solid #a36917;
+}
+
+.menu2 a:hover{
+    color: #a36917;
+}
+
+.menu2 .item:last-child{
+    border: none;
+}
+
+.content {
+    display: flex;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.content p {
+    color: #ccc;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu3 {
+    margin-top: 300px;
+}
+
+.menu3 a {
+    color: #8c4f0c;
+}
+
+.menu3 .item {
+    padding: 0 3px 0 0;
+    border-right: 1px solid #a36917;
+    font-size: 12px;
+    margin: 0 -30px 0 30px;
+}
+
+.menu3 .item:last-child{
+    border: none;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #000;
+    border-top: 1px solid #a36917;
+    border-bottom: 1px solid #a36917;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 0 7px 20px;
+}
+
+.copyright {
+    margin-inline-start: auto;
+    padding: 7px 15px 7px 0;
+    font-size: 12px;
+}
