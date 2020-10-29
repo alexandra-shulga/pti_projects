@@ -230,6 +230,29 @@ li {
     border-color: #a8c78a;
 }
 
+/*FAQ_____________________________*/
+
+.content_faq {
+    background-color: #5f5c5c;
+    border-top: 6px solid #7e7e7e;
+    margin: 0 466px 19px 0;
+    padding: 20px 25px;
+    font-size: 13px;
+}
+
+dt {
+    background: url("../images/dot.gif")no-repeat 0;
+    margin: 4px -8px;
+    padding: 0 9px;
+}
+
+dd {
+    line-height: 20px;
+}
+
+.link_faq {
+    color: #a7a7a7;
+}
 /*FOOTER--------------------*/
 
 .footer {
