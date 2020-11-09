@@ -14,6 +14,11 @@ body {
     background-image: url("../images/1.gif");
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /*
     Для контента используется
     font-family: Tahoma, Arial, sans-serif;
@@ -22,30 +27,43 @@ body {
     font-family: "Times New Roman", Times, serif;
 */
 
+/* =Header
+------------------------------------------------- */
 .header {
     font-family: "Times New Roman", Times, serif;
     background-color: #000;
     display: flex;
     height: 31px;
+    margin-bottom: 10px;
 }
 
-.select {
-    margin-inline-start: auto;
+.header .settings {
+    margin-left: auto;
     padding: 7px 15px 7px 0;
     font-size: 12px;
+    color: #fff;
+}
+
+.header .settings select {
+    margin-left: 10px;
 }
 
 .header p {
     text-align: right;
     color: #fff;
-
 }
 
+/* =Menu 1
+------------------------------------------------- */
 .menu1 {
-    text-align: center;
-    margin-left: 370px;
+    width: 726px;
+    margin: 0 auto;
+    text-align: right;
+    margin-bottom: 5px;
 }
 
+/* =Page
+------------------------------------------------- */
 .page {
     width: 726px;
     margin: 0 auto;
@@ -53,12 +71,10 @@ body {
     border: 2px solid #a36917;
 }
 
-.left {
-    padding: 13px 0 0 14px;
-}
-
-.right {
-    padding: 10px 10px 0 20px;
+/* =Menu 2
+------------------------------------------------- */
+.menu2 {
+    padding-top: 5px;
 }
 
 .menu2 .item {
@@ -67,7 +83,7 @@ body {
     border-right: 1px solid #a36917;
 }
 
-.menu2 a:hover{
+.menu2 a:hover {
     color: #a36917;
 }
 
@@ -75,9 +91,16 @@ body {
     border: none;
 }
 
+/* =Content
+------------------------------------------------- */
 .content {
     display: flex;
     font-family: Tahoma, Arial, sans-serif;
+    padding: 13px 10px 0 14px;
+}
+
+.content img {
+    margin: 0 15px 10px 0;
 }
 
 .content p {
@@ -85,13 +108,12 @@ body {
     font-size: 12px;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
+/* =Menu 3
+------------------------------------------------- */
 .menu3 {
     margin-top: 300px;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .menu3 a {
@@ -102,13 +124,14 @@ a {
     padding: 0 3px 0 0;
     border-right: 1px solid #a36917;
     font-size: 12px;
-    margin: 0 -30px 0 30px;
 }
 
 .menu3 .item:last-child{
     border: none;
 }
 
+/* =Footer
+------------------------------------------------- */
 .footer {
     display: flex;
     position: absolute;
@@ -126,8 +149,12 @@ a {
     padding: 7px 0 7px 20px;
 }
 
-.copyright {
+.footer .menu {
     margin-inline-start: auto;
     padding: 7px 15px 7px 0;
     font-size: 12px;
+}
+
+.footer .menu a {
+    margin-left: 10px;
 }
