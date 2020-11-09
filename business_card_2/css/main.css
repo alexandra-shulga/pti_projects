@@ -18,64 +18,145 @@ body {
     position: relative;
 }
 
-/*=HEADER-------------------------------*/
-
-.header_menu {
-    display: flex;
+/* =Header menu
+------------------------------------------------- */
+.menu {
+    height: 164px;
+    /* overflow: hidden;*/
 }
 
-.menu_home {
-    position: absolute;
-    margin: 85px 20px;
+.menu a {
+    float: left;
+    width: 196px;
+    height: 164px;
+    text-indent: -9999px;
 }
 
-.menu_portfolio {
-    margin: 85px 20px;
-    position: absolute;
+.menu .item--index {
+    background: url("../images/menu_home.png") no-repeat 15px 91px, url("../images/menu_1.gif") no-repeat;
 }
 
-.menu_contacts {
-    margin: 85px 30px;
-    position: absolute;
+.menu .item--portfolio {
+    background: url("../images/menu_portfolio.png") no-repeat 15px 91px, url("../images/menu_2.gif") no-repeat;
 }
 
-.menu_pricing {
-    margin: 85px 50px;
-    position: absolute;
+.menu .item--contacts {
+    background: url("../images/menu_contacts.png") no-repeat 28px 91px, url("../images/menu_3.gif") no-repeat;
 }
 
-/*=CONTENT ABOUT--------------------------------*/
+.menu .item--pricing {
+    background: url("../images/menu_pricing.png") no-repeat 59px 91px, url("../images/menu_4.gif") no-repeat;
+}
 
+/* =Columns
+------------------------------------------------- */
 .columns {
     display: flex;
     padding-top: 30px;
 }
 
 .column_left {
-    width: 99.99%;
+    width: 60%;
 }
 
 .column_right {
-    width: 29.22%;
-    margin-left: -435px;
+    width: 40%;
+    padding-left: 20px;
 }
 
-h1, h2, h4 {
+/* =General styles for Modules
+------------------------------------------------- */
+.module_title {
     color: #efcfa5;
     font-size: 18px;
     font-family: sans-serif;
     padding-bottom: 5px;
 }
 
-h3 {
+.module_content {
+    border-top: 6px solid #7e7e7e;
+    padding: 15px 42px 55px 15px;
+}
+
+/* =Module: Recent projects
+------------------------------------------------- */
+.module_recent-projects .module_content {
+    background: #5f5c5c;
+}
+
+.module_recent-projects img {
+    border: 5px solid #ede1d2;
+    margin-top: 5px;
+}
+
+/* =Module: Our projects
+------------------------------------------------- */
+.module_our-projects .item--project {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.module_our-projects img {
+    border: 5px solid #ede1d2;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+/* =Module: Testimonials
+------------------------------------------------- */
+.module_testimonials .module_title {
     color: #a1c6dd;
+}
+
+/* =Module: XXXXXXXXXXXXXXXXXXX
+------------------------------------------------- */
+
+/* =Module: XXXXXXXXXXXXXXXXXXX
+------------------------------------------------- */
+
+/* =Footer
+------------------------------------------------- */
+.footer {
+    background-color: #585555;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.footer a {
+    margin: 0 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=CONTENT ABOUT--------------------------------*/
+h1, h2, h4 {
+    color: #efcfa5;
     font-size: 18px;
     font-family: sans-serif;
     padding-bottom: 5px;
-}
-
-.image {
-    padding-top: 5px;
 }
 
 a {
@@ -104,7 +185,6 @@ a:hover {
 
 .content_client {
     width: 66.66%;
-
 }
 
 .project_text {
@@ -252,22 +332,4 @@ dd {
 
 .link_faq {
     color: #a7a7a7;
-}
-/*FOOTER--------------------*/
-
-.footer {
-    background-color: #585555;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-.footer .item {
-    padding: 0 15px 0 0;
-}
-
-.footer .links {
-    text-align: center;
 }
