@@ -1,0 +1,96 @@
+/*-------------Таблица №1--------------*/
+.table1 td {
+    border: 1px solid #000;
+    padding: 8px 40px;
+    text-align: center;
+}
+
+.table1 .first {
+    font-weight: bold;
+    text-align: center;
+}
+
+.table1 .first_left {
+    text-align: left;
+    font-weight: bold;
+}
+
+/*-------------Таблица №2--------------*/
+.table2 td {
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+
+.table2 .first {
+    text-align: center;
+}
+.table2 .content {
+    padding: 10px 70px;
+}
+
+/*-------------Таблица №3--------------*/
+.table3 td {
+    border: 1px solid #000;
+    padding: 20px 40px;
+}
+
+.table3 .first {
+    font-weight: bold;
+}
+
+/*-------------Таблица №4--------------*/
+.table4 td {
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+
+/*-------------Таблица №5--------------*/
+.table5 td {
+    padding: 8px 40px;
+    text-align: center;
+}
+
+.table5 .productmenu {
+    padding: 10px 100px;
+}
+
+.table5 tr:first-child {
+    background-color: #706d97;
+}
+
+.table5 tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.table5 .article {
+    text-align: left;
+}
+
+.table5 .preis {
+    text-align: right;
+}
+
+/*-------------Таблица №6--------------*/
+.table6 {
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+    color: #0C213B;
+}
+
+.table6 th {
+    padding: 10px 80px;
+    border: 1px solid #A9E2CC;
+}
+
+.table6 td {
+    font-size: 0.8em;
+    padding: 10px 10px;
+    border: 1px solid #A9E2CC;
+}
+
+.table6 .first {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
