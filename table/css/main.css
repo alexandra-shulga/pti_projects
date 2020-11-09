@@ -45,6 +45,10 @@
 }
 
 /*-------------Таблица №5--------------*/
+.table5 {
+    border-collapse: collapse;
+}
+
 .table5 td {
     padding: 8px 40px;
     text-align: center;
@@ -54,11 +58,11 @@
     padding: 10px 100px;
 }
 
-.table5 tr:first-child {
+.table5 .first {
     background-color: #706d97;
 }
 
-.table5 tr:nth-child(odd) {
+.table5 tr:nth-child(2n+3) {
     background-color: #eee;
 }
 
