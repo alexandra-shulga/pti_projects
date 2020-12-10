@@ -3,3 +3,249 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #17313a;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+}
+
+.page {
+    width: 950px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.logo {
+    margin: 50px 0;
+}
+
+/*---------------------HEADER--------------------*/
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_menu {
+    display: flex;
+    margin: 0 0 10px 10px;
+}
+
+.header_menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 15px;
+}
+
+.menu_features {
+    background: linear-gradient(0deg, #b0cbab, #4CAF50);
+    margin-right: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 0 40px;
+    color: #fff;
+    text-decoration: none;
+    height: 130px;
+    width: 240px;
+}
+
+.menu_features img {
+    margin: 30px -55px;
+}
+
+.menu_demo {
+    background: linear-gradient(0deg, #b5d9f3, #2b9aa8);
+    margin-right: 15px;
+    padding: 0 20px;
+    width: 200px;
+}
+
+.menu_demo img {
+    margin: 30px -40px;
+}
+
+.menu_requirements {
+    background: linear-gradient(0deg, #de5c36, #dac391);
+    margin-right: 15px;
+    width: 200px;
+}
+
+.menu_requirements img {
+    margin: 30px -85px;
+}
+
+.menu_support {
+    background: linear-gradient(0deg, #a6b33a, #e0e893);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0 40px;
+    height: 130px;
+    width: 240px;
+}
+
+.menu_support img {
+    margin: 32px -50px;
+}
+
+/*---------------------CONTENT-CONTACT-------------------*/
+.content {
+    border-top: 2px solid #0c5e67;
+    border-bottom: 2px solid #0c5e67;
+    height: 500px;
+}
+
+title {
+    color: #61885b;
+}
+
+.module_title {
+    margin: 13px 0;
+    color: #61885b;
+}
+
+.form {
+    margin: 20px 50px;
+}
+
+.field1 {
+    padding: 2px 24px;
+}
+
+.field2 {
+    margin: 5px 21px;
+}
+
+.field3 {
+    margin: 5px 14px;
+}
+
+.field4 textarea {
+    height: 140px;
+    width: 420px;
+    background-color: #beebb3;
+}
+
+input {
+    background-color: #beebb3;
+}
+
+.action button {
+    background: #61885b;
+    color: #beebb3;
+    border: 1px solid #beebb3;
+    width: 125px;
+    height: 25px;
+    margin: 2px 78px
+}
+
+/*------------------CONTENT-ABOUT-US-------------------------*/
+.module_about_us {
+    border-bottom: 2px solid #0c5e67;
+}
+
+.module_about_us p {
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+/*.right {*/
+/*    width: 20%;*/
+/*}*/
+
+.module_testimonials a:hover {
+    text-decoration: none;
+    color: #30b0cf;
+    margin: 0 8px;
+}
+
+.key {
+    background: #b1e1a7;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+}
+
+/*----------------------CONTENT-NEWS---------------------------------------*/
+.module_news {
+    width: 400px;
+}
+
+.module_other_news a:hover {
+    text-decoration: none;
+    color: #30b0cf;
+    margin: 0 8px;
+}
+
+/*--------------------CONTENT-PROJECT------------------------------*/
+.project_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project_gallery .item img {
+    border: 10px solid #254f5e;
+    height: 170px;
+    width: 260px;
+    margin: 10px 15px;
+}
+
+.project_gallery .item:hover{
+    color: grey;
+}
+
+.module_project .left {
+    width: 675px;
+}
+
+/*-----------------------CONTENT-SERVICES---------------------------------*/
+.module_service {
+    display: flex;
+    margin: 0 auto;
+}
+
+.module_service .service {
+    border-left: 1px dashed #757b82;
+    padding: 0 133px 0 20px;
+    margin: 5px 0 0 5px;
+    height: 250px;
+}
+
+.module_service .service:last-child {
+    border-right: 1px dashed #757b82;
+}
+
+.service {
+    color: #beebb3;
+}
+
+h2 {
+    margin: 10px -10px;
+}
+
+.service img {
+    margin-bottom: -2px;
+}
+
+/*-----------------------------FOOTER-------------------*/
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}

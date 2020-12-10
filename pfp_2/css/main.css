@@ -1,8 +1,4 @@
-﻿body {
-    font-family: "Times New Roman", Times, serif;
-}
-
-/*
+﻿/*
     На проекте так же используются
 
     в header, типы платежных систем, описание товара:
@@ -14,3 +10,476 @@
     в footer:
     font-family: Tahoma;
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url("../images/35.gif");
+}
+
+/*-------------HEADER-MENU-------------------*/
+
+.header {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #200004;
+    display: flex;
+    height: 31px;
+    margin-bottom: 10px;
+    border: 1px solid #6a4101;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.header p {
+    color: #c67111;
+    margin: 9px -95px 0 4px;
+    font-size: 11px;
+}
+
+.header a {
+    color: #c67111;
+
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    color: #c67111;
+    font-size: 11px;
+    margin-left: 625px;
+}
+
+.header_links {
+    padding: 5px 5px 0 5px;
+}
+
+.add {
+    text-decoration: none;
+}
+
+.settings_select {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px 0 5px;
+}
+
+.header select {
+    padding: 0 4px 0 3px;
+    margin: 0 5px 5px 5px;
+}
+
+.page {
+    width: 726px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 5px solid #fff;
+}
+
+.content_logo {
+    background-color: #3a0201;
+    border: 1px solid #fff
+}
+
+.content_logo img {
+    margin-left: 240px;
+}
+
+/*-----------------BASIC-CONTENT----------------*/
+
+.page_menu {
+    background-color: #3a0201;
+    border: 1px solid #fff;
+    margin-top: 4px;
+    color: #fff8b7;
+    display: flex;
+    flex-direction: row;
+}
+
+.link img {
+    height: 26px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 10px 90px;
+}
+
+.arrow {
+    background-color: #3a0201;
+    padding: 0 30px;
+    margin-top: -3px;
+    border: 1px solid #fff;
+    border-top: none;
+}
+
+.arrow img {
+    height: 14px;
+    width: 637px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------------CONTACT-CONTENT----------------------------*/
+
+.sing_in {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+}
+
+.sing_in a {
+    margin: 5px 0 0 -80px;
+    color: #c38b1a;
+}
+
+.contact_form {
+    font-size: 14px;
+    color: #550000;
+    margin: 30px 200px;
+}
+
+.contact_form label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    vertical-align: top;
+    padding: 10px 2px;
+}
+
+.contact_form input,
+select {
+    text-align: left;
+    padding: 0 60px 0 0;
+    margin: 10px 0;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+}
+
+.order img {
+    margin: -4px -290px 31px 205px;
+    height: 34px;
+    width: 323px;
+}
+
+.order a {
+    color: #ba9a1c;
+}
+
+h3 {
+    color: #c38b1a;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+h4 {
+    color: #370000;
+    padding: 20px 10px;
+    font-size: 16px;
+    margin-left: 265px;
+}
+
+.advertising {
+    background: #e7e8b0;
+    margin: 30px 5px -15px 5px;
+}
+
+.advertising .image {
+    height: 75px;
+    width: 130px;
+}
+
+.advertising .image1 {
+    margin: 8px 15px;
+}
+
+.advertising .image2 {
+    margin: 13px -10px;
+}
+
+.advertising .image3 {
+    margin: 9px 16px;
+}
+
+.image4 {
+    margin: -105px 0 0 590px;
+}
+
+/*----------------PAYMENT-CONTENT---------------------------*/
+
+.payment_content {
+    display: flex;
+}
+
+h2 {
+    padding: 70px 30px;
+    font-size: 20px;
+}
+
+h1 {
+    padding: 0 0 20px 300px;
+    font-size: 20px;
+}
+
+.payment_menu {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 90px 50px 0;
+}
+
+.payment_menu img {
+    margin: 5px 15px -5px -35px;
+    height: 19px;
+    width: 31px;
+}
+
+.pay {
+    border-bottom: 1px solid #dede;
+    padding: 10px 40px;
+}
+
+.pay label {
+    margin: 0 20px;
+}
+
+/*----------SHIPPING-CONTENT---------------------*/
+
+h4 {
+    margin: -10px 0 -20px 4px;
+    font-size: 15px;
+    color: #550000;
+}
+
+.shipping_content h3 {
+    color: #370000;
+    font-size: 20px;
+    margin: 10px 42px 0 140px;
+}
+
+.shipping p {
+    margin: 0 0 10px 15px;
+    font-size: 14px;
+    color: #550000;
+}
+
+.shipping_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.shipping_content .item_table {
+    margin: 45px 0 30px -206px;
+}
+
+.visa_img {
+    margin: -20px 0 11px 260px;
+}
+
+.purchase {
+    color: #550000;
+    margin: 0 0 0 165px;
+}
+
+.purchase a {
+    color: #550000;
+    font-size: 13px;
+}
+
+.purchase label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    vertical-align: top;
+    padding: 10px 2px;
+}
+
+.purchase input {
+    text-align: left;
+    padding: 0 60px 0 0;
+    margin: 10px 0;
+}
+
+.purchase input:last-child {
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 10px 0;
+}
+
+.notes {
+    padding: 40px 10px 40px 10px;
+    font-size: 14px;
+    color: #550000;
+}
+
+.notes p {
+    text-align: center;
+}
+
+.order1 img {
+    margin: -20px -290px -14px 205px;
+    height: 34px;
+    width: 323px;
+}
+
+.order1 a {
+    margin: 2px 0 0 55px;
+    color: #ba9a1c;
+}
+
+/*------------table----------------*/
+
+.item_table {
+    border: 1px solid #b09a68;
+    margin: -10px 135px 19px 120px;
+}
+
+.table_menu {
+    background: #540000;
+    color: #fff;
+}
+
+.first_left {
+    padding: 0 0 0 10px;
+}
+
+.second {
+    padding: 4px 40px 4px 20px;
+    background: none;
+    color: #c59f5e;
+}
+
+.third {
+    padding: 0 30px 40px 30px;
+    color: #c59f5e;
+}
+
+.fourth {
+    padding: 0 30px 40px 30px;
+    color: #c59f5e;
+}
+
+/*!*--------------FINISHED-CONTENT-TEXT-!-!-!-!------------*!*/
+
+.finished p {
+    color: #370000;
+    margin: 20px 156px;
+    text-align: center;
+}
+
+.congratulations {
+    margin: 20px 190px;
+    font-size: 17px;
+}
+
+.thanks {
+    margin: 0 160px;
+}
+
+.note {
+    margin: 20px 0 -20px 0;
+}
+
+.button_menu {
+    display: flex;
+    flex-direction: row;
+}
+
+/*-----------------FOOTER---------------*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #200004;
+    color: #c69b3c;
+    border: 1px solid #6a4101;
+    padding: 4px 0 0 30px;
+    font-size: 12px;
+    border-left: none;
+}
+
+.footer p {
+    padding: 8px 15px;
+}
+
+.footer_link {
+    margin-inline-start: auto;
+    font-size: 12px;
+    display: flex;
+}
+
+.footer_link a {
+    border-right: 1px solid #965909;
+    margin: 6px 8px 6px 4px;
+    padding: 0 8px 0 0;
+    color: #965909;
+}
+
+.footer_link a:last-child {
+    border-right: none;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #200004;
+    color: #c69b3c;
+    border: 1px solid #6a4101;
+    padding: 0 0 0 7px;
+    height: 30px;
+    font-size: 12px;
+    border-left: none;
+}
+
+.footer_menu p {
+    font-size: 20px;
+    margin: 4px 25px 0 3px;
+}
+
+.footer_menu .field {
+    padding: 7px 6px;
+}
+
+.footer_menu input {
+    height: 15px;
+    margin: 6px 0;
+}
+
+.footer_menu a {
+    margin: 3px -16px 6px 1px;
+    padding: 2px 35px 4px 23px;
+    color: #c69b3c;
+}
+
+.footer_menu .maximize {
+    margin-left: 750px;
+    padding: 4px;
+}
+
+.footer_menu .maximize1 {
+    margin-left: 1280px;
+    padding: 4px;
+}
+
+a:hover {
+    text-decoration: none;
+}

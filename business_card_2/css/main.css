@@ -34,6 +34,7 @@ body {
 
 .menu .item--index {
     background: url("../images/menu_home.png") no-repeat 15px 91px, url("../images/menu_1.gif") no-repeat;
+    color: #fff;
 }
 
 .menu .item--portfolio {
@@ -76,6 +77,10 @@ body {
 .module_content {
     border-top: 6px solid #7e7e7e;
     padding: 15px 42px 55px 15px;
+}
+
+.module_content_ {
+    display: flex;
 }
 
 /* =Module: Recent projects
@@ -131,26 +136,6 @@ body {
     margin: 0 7px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*=CONTENT ABOUT--------------------------------*/
 h1, h2, h4 {
     color: #efcfa5;
@@ -185,6 +170,10 @@ a:hover {
 
 .content_client {
     width: 66.66%;
+}
+
+.content_client img {
+    margin: 5px 0;
 }
 
 .project_text {
@@ -293,6 +282,7 @@ li {
     display: flex;
     flex-direction: row;
     background: url("../images/pricing_desk.gif")0 0;
+    margin: 0 60px 10px -15px;
 }
 
 .product1,

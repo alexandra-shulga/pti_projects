@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -8,87 +8,191 @@
 </head>
 
 <body>
-    - oil paintings, reproductions and portraits. Since 1997.
+    <div class="header">
+        <div class="logo">
+            <img alt="#" src="images/24.jpg"/>
+        </div>
 
-    Tell a Friend
+        <p>
+            - oil paintings, reproductions and portraits. Since 1997.
+        </p>
 
-    Add
-    to bookmarks
+        <div class="header_menu">
+            <div class="header_links">
+                <a href="#">Tell a Friend</a>
+            </div>
 
-    Current language:
-    English
+            <div class="header_links">
+                <a class="add" href="#">Add</a>
+                <a href="#">to bookmarks</a>
+            </div>
 
-    Italian
-    Nederlands
-    Russian
-    Ukrainian
-    * English
+            <div class="settings_select">
+                <label for="language">Current language:</label>
+                <select id="language">
+                    <option>English</option>
+                    <option>Italian</option>
+                    <option>Nederlands</option>
+                    <option>Russian</option>
+                    <option> Ukrainian</option>
+                </select>
+            </div>
 
-    Your location:
-    Nederland
+            <div class="settings_select">
+                <label for="country">Your location:</label>
+                <select id="country">
+                    <option>Nederland</option>
+                </select>
+            </div>
+        </div>
+    </div>
 
-    Your details
-    Payment type
-    Payment
-    Finished
+    <div class="page">
+        <div class="content_logo">
+            <img alt="#" src="images/1.gif"/>
+        </div>
 
-    Already a customer?
-    SIGN IN
+        <div class="page_menu">
+            <div class="link">
+                <a href="cart.step.1.htm"><img alt="#" src="images/3.gif"/></a>
+                Your details
+            </div>
 
-    Persoonlijke Gegevens
+            <div class="link">
+                <a href="cart.step.2.htm"><img alt="#" src="images/8.gif"/></a>
+                Payment type
+            </div>
 
-    Productnaam *
-    Mr.
-    Mrs.
-    Ms.
+            <div class="link">
+                <a href="cart.step.3.htm"><img alt="#" src="images/7.gif"/></a>
+                Payment
+            </div>
 
-    Voornaam *
-    Achternaam *
-    Bedrijf
-    Telefoon nr. *
-    E-mail *
-    Fax nr.
-    Website
-    Adres *
-    Stad *
-    Provincie *
-    <select>
-        <option value="Other">Other</option>
-        <option value="AK">Alaska</option>
-        <option value="AL">Alabama</option>
-        <option value="AR">Arkansas</option>
-        <option value="AZ">Arizona</option>
-        <option value="CA">California</option>
-        <option value="CO">Colorado</option>
-        <option value="CT">Connecticut</option>
-        <option value="DC">District of Columbia</option>
-        <option value="DE">Delaware</option>
-    </select>
-    Land *
-    <select>
-        <option value="AF">Afghanistan</option>
-        <option value="AL">Albania</option>
-        <option value="DZ">Algeria</option>
-        <option value="AS">American Samoa</option>
-        <option value="AD">Andorra</option>
-        <option value="AO">Angola</option>
-        <option value="AI">Anguilla</option>
-        <option value="AQ">Antarctica</option>
-        <option value="NL" selected="selected">Netherlands</option>
-    </select>
-    Postcode *
+            <div class="link">
+                <a href="cart.step.4.htm"><img alt="#" src="images/10.gif"/></a>
+                Finished
+            </div>
+        </div>
 
-    GA DOOR NAAR KASSA &gt; BETALING
+        <div class="arrow">
+            <img alt="#" src="images/2.gif"/>
+        </div>
 
-    All rights reserved. &copy; 1997-2007 My Passion For ltd.
-    Terms of use
-    Company information
-    Contact us
+        <div class="contact_content">
+            <div class="sing_in">
 
-    My Wishlist
-    Login name:
-    Password:
-    Log in
-    Maximize
+                <h3>Already a customer?</h3>
+
+                <img alt="#" src="images/15.gif"/>
+                <a href="#">SING IN</a>
+            </div>
+
+            <h4>Persoonlijke Gegevens</h4>
+
+            <div class="contact_form">
+                <label class="field" for="productnaam">Productnaam *</label>
+                <select id="productnaam">
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                    <option>Ms.</option>
+                </select><br>
+
+                <label class="field" for="voormaam">Voornaam *</label>
+                <input type="text" id="voormaam"><br>
+
+                <label class="field" for="achternaam">Achternaam *</label>
+                <input type="text" id="achternaam"><br>
+
+                <label class="field" for="bedrijf">Bedrijf</label>
+                <input type="text" id="bedrijf"><br>
+
+                <label class="field" for="telefoon">Telefoon nr. *</label>
+                <input type="text" id="telefoon"><br>
+
+                <label class="field" for="e-mail *">E-mail *</label>
+                <input type="text" id="e-mail *"><br>
+
+                <label class="field" for="fax nr.">Fax nr.</label>
+                <input type="text" id="fax nr."><br>
+
+                <label class="field" for="website">Website</label>
+                <input type="text" id="website"><br>
+
+                <label class="field" for="adres">Adres *</label>
+                <input type="text" id="adres"><br>
+
+                <label class="field" for="provincie">Provincie *</label>
+                <select id="provincie">
+                    <option value="Other">Other</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DC">District of Columbia</option>
+                    <option value="DE">Delaware</option>
+                </select><br>
+
+                <label class="field" for="lang">Lang *</label>
+                <select id="lang">
+                    <option value="AF">Afghanistan</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AO">Angola</option>
+                    <option value="AI">Anguilla</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="NL" selected="selected">Netherlands</option>
+                </select><br>
+
+                <label class="field" for="postcode">Postcode *</label>
+                <input type="text" id="postcode">
+            </div>
+
+            <div class="order">
+                <img alt="#" src="images/14.gif"/><a href="#"> GA DOOR NAAR KASSA &gt; BETALING</a>
+            </div>
+
+            <div class="advertising">
+                <img class="image" alt="#" src="images/13.gif"/>
+                <img class="image1" alt="#" src="images/29.gif"/>
+                <img class="image2" alt="#" src="images/27.gif"/>
+                <img class="image3" alt="#" src="images/28.gif"/>
+            </div>
+
+            <img class="image4" alt="#" src="images/17.png"/>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            All rights reserved. &copy; 1997-2007 My Passion For ltd.
+        </p>
+
+        <div class="footer_link">
+            <a href="#">Terms of use </a>
+            <a href="#">Company information </a>
+            <a href="#">Contact us </a>
+        </div>
+    </div>
+
+    <div class="footer_menu">
+        <p>
+            My Wishlist
+        </p>
+
+        <label class="field" for="login">Login name:</label>
+        <input type="text" id="login">
+
+        <label class="field" for="password">Password:</label>
+        <input type="text" id="password">
+
+        <a href="#">Log in</a>
+        <a class="maximize" href="#">Maximize</a>
+        <a href="#"><img alt="#" src="images/23.gif"/></a>
+    </div>
 </body>
 </html>
