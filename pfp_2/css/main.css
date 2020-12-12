@@ -398,6 +398,16 @@ h4 {
     flex-direction: row;
 }
 
+.button1 a {
+    color: #370000;
+    background-image: url("../images/18.gif");
+}
+
+.button2 a {
+    color: #370000;
+    background-image: url("../images/19.gif");
+}
+
 /*-----------------FOOTER---------------*/
 
 .footer {
