@@ -6,7 +6,7 @@ body {
 
 * {
     box-sizing: border-box;
-    margin: 1px;
+    margin: 1px;/* TODO: стремная хуйня */
     padding: 0;
 }
 
@@ -18,11 +18,18 @@ body {
     position: relative;
 }
 
+/* =Basic styles
+------------------------------------------------- */
+
+/* =Header
+------------------------------------------------- */
 .logo {
     margin: 50px 0;
 }
 
-/*---------------------HEADER--------------------*/
+/* TODO: .header .logo */
+/* TODO: .header .menu */
+
 .header {
     display: flex;
     flex-direction: row;
@@ -90,27 +97,28 @@ body {
     margin: 32px -50px;
 }
 
-/*---------------------CONTENT-CONTACT-------------------*/
+/*---------------------CONTENT-CONTACT----------TODO: к моему стилю--------------*/
+/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
 .content {
     border-top: 2px solid #0c5e67;
     border-bottom: 2px solid #0c5e67;
     height: 500px;
 }
 
-title {
+title {/* TODO: это класс или тэг? .div VS div */
     color: #61885b;
 }
 
-.module_title {
+.module_title {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     margin: 13px 0;
     color: #61885b;
 }
 
-.form {
+.form {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     margin: 20px 50px;
 }
 
-.field1 {
+.field1 {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     padding: 2px 24px;
 }
 
@@ -118,21 +126,21 @@ title {
     margin: 5px 21px;
 }
 
-.field3 {
+.field3 {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     margin: 5px 14px;
 }
 
-.field4 textarea {
+.field4 textarea {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     height: 140px;
     width: 420px;
     background-color: #beebb3;
 }
 
-input {
+input {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     background-color: #beebb3;
 }
 
-.action button {
+.action button {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     background: #61885b;
     color: #beebb3;
     border: 1px solid #beebb3;
@@ -141,7 +149,7 @@ input {
     margin: 2px 78px
 }
 
-/*------------------CONTENT-ABOUT-US-------------------------*/
+/*------------------CONTENT-ABOUT-US--------------TODO: к моему стилю----------------*/
 .module_about_us {
     border-bottom: 2px solid #0c5e67;
 }
@@ -150,11 +158,11 @@ input {
     margin-bottom: 20px;
 }
 
-.column {
+.column {/* TODO: это глобалная колонка или элемент модуля */
     display: flex;
 }
 
-.left {
+.left {/* TODO: это глобалная колонка или элемент модуля */
     width: 50%;
 }
 
@@ -168,14 +176,14 @@ input {
     margin: 0 8px;
 }
 
-.key {
+.key {/* TODO: родитель? глобальный элемент? */
     background: #b1e1a7;
     border-radius: 15px;
     height: 200px;
     width: 300px;
 }
 
-/*----------------------CONTENT-NEWS---------------------------------------*/
+/*----------------------CONTENT-NEWS---------------TODO: к моему стилю-----------------------------*/
 .module_news {
     width: 400px;
 }
@@ -186,21 +194,21 @@ input {
     margin: 0 8px;
 }
 
-/*--------------------CONTENT-PROJECT------------------------------*/
-.project_gallery {
+/*--------------------CONTENT-PROJECT---------------TODO: к моему стилю--------------------*/
+.project_gallery {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.project_gallery .item img {
+.project_gallery .item img {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     border: 10px solid #254f5e;
     height: 170px;
     width: 260px;
     margin: 10px 15px;
 }
 
-.project_gallery .item:hover{
+.project_gallery .item:hover{/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     color: grey;
 }
 
@@ -208,7 +216,7 @@ input {
     width: 675px;
 }
 
-/*-----------------------CONTENT-SERVICES---------------------------------*/
+/*-----------------------CONTENT-SERVICES----------TODO: к моему стилю----------------------------*/
 .module_service {
     display: flex;
     margin: 0 auto;
@@ -225,19 +233,19 @@ input {
     border-right: 1px dashed #757b82;
 }
 
-.service {
+.service {/* TODO: Если это стили модуля то сделай как в bussiness_card_2 */
     color: #beebb3;
 }
 
-h2 {
+h2 {/* TODO: родитель? глобальный элемент? */
     margin: 10px -10px;
 }
 
-.service img {
+.service img {/* TODO: родитель? глобальный элемент? */
     margin-bottom: -2px;
 }
 
-/*-----------------------------FOOTER-------------------*/
+/*-----------------------------FOOTER-------TODO: к моему стилю------------*/
 .footer {
     bottom: 0;
     width: 100%;

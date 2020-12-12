@@ -18,6 +18,9 @@ body {
     position: relative;
 }
 
+/* =Basic styles
+------------------------------------------------- */
+
 /* =Header menu
 ------------------------------------------------- */
 .menu {
@@ -116,9 +119,19 @@ body {
 
 /* =Module: XXXXXXXXXXXXXXXXXXX
 ------------------------------------------------- */
+/* TODO: сюда писать свои модули */
 
 /* =Module: XXXXXXXXXXXXXXXXXXX
 ------------------------------------------------- */
+/* TODO: сюда писать свои модули */
+
+/* =Module: XXXXXXXXXXXXXXXXXXX
+------------------------------------------------- */
+/* TODO: сюда писать свои модули */
+
+/* =Module: XXXXXXXXXXXXXXXXXXX
+------------------------------------------------- */
+/* TODO: сюда писать свои модули */
 
 /* =Footer
 ------------------------------------------------- */
@@ -136,14 +149,47 @@ body {
     margin: 0 7px;
 }
 
-/*=CONTENT ABOUT--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TODO: Отрефакторить твой код в соответствии с моим (мой выше, твой ниже) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=CONTENT ABOUT--------------------------------*/              /* TODO: к моему виду, стилю */
 h1, h2, h4 {
     color: #efcfa5;
     font-size: 18px;
     font-family: sans-serif;
     padding-bottom: 5px;
 }
-
+/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
 a {
     color: #efcfa5;
 }
@@ -151,14 +197,14 @@ a {
 a:hover {
     color: #fff;
 }
-
+/* TODO: to .module_MODULE_NAME */
 .content_about {
     background-color: #5f5c5c;
     border-top: 6px solid #7e7e7e;
     margin: 0 470px 19px 0;
     padding: 15px 18px;
 }
-
+/* TODO: to .module_MODULE_NAME */
 .content_project {
     background-color: #5f5c5c;
     border-top: 6px solid #7e7e7e;
@@ -167,7 +213,7 @@ a:hover {
     display: flex;
     flex-direction: row;
 }
-
+/* TODO: to .module_MODULE_NAME */
 .content_client {
     width: 66.66%;
 }
@@ -175,13 +221,13 @@ a:hover {
 .content_client img {
     margin: 5px 0;
 }
-
+/* TODO: to .module_MODULE_NAME */
 .project_text {
     padding: 25px 0;
     margin: -12px 20px;
     width: 56.33%;
 }
-
+/* TODO: зачем .column */
 .column .testimonials_text {
     border-top: 6px solid #7e7e7e;
     padding: 15px 42px 55px 15px;
@@ -192,14 +238,14 @@ a:hover {
     background-color: #5f5c5c;
     padding: 15px 18px;
 }
-
+/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
 b {
     color: #a1c6dd;
     margin-left: 117px;
 }
 
 /*CONTENT PORTFOLIO---------------------------*/
-
+/* TODO: to .module_MODULE_NAME */
 .portfolio_project {
     background-color: #5f5c5c;
     border-top: 6px solid #7e7e7e;
@@ -225,14 +271,14 @@ b {
 }
 
 /*CONTACT CONTENT----------------*/
-
+/* TODO: to .module_MODULE_NAME */
 .contact_form {
     background-color: #5f5c5c;
     border-top: 6px solid #7e7e7e;
     margin: 0 470px 19px 0;
     padding: 15px 18px;
 }
-
+/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
 .field {
     margin-bottom: 8px;
     padding: 3px 10px;
@@ -242,7 +288,7 @@ b {
     height: 140px;
     width: 420px;
 }
-
+/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
 .submit {
     padding: 2px 90px;
     background-color: #fff3;
@@ -251,7 +297,7 @@ b {
 }
 
 /*PRICE CONTENT-----------------*/
-
+/* TODO: to .module_MODULE_NAME или .родитель */
 .content_price {
     background-color: #5f5c5c;
     border-top: 6px solid #7e7e7e;
@@ -260,23 +306,25 @@ b {
     display: flex;
     flex-direction: column;
 }
-
+/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
 li {
    list-style-image: url("../images/dot.png");
     color: #5a972c;
  }
+/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
 
 ul,
 li {
     color: #5a972c;
 }
-
+/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
+/* TODO: имя класса должно нести функциональную состовляющую а не визуальную */
 .green {
     color: #5a972c;
     padding: 10px 197px;
     font-size: 25px;
 }
-
+/* TODO: родитель */
 .price_menu1,
 .price_menu2 {
     display: flex;
@@ -284,11 +332,13 @@ li {
     background: url("../images/pricing_desk.gif")0 0;
     margin: 0 60px 10px -15px;
 }
+/* TODO: родитель */
 
 .product1,
 .product2 {
     margin: 13px 25px;
 }
+/* TODO: родитель */
 
 .purchase {
     border-radius: 15px;
@@ -301,6 +351,7 @@ li {
 }
 
 /*FAQ_____________________________*/
+/* TODO: to .module_MODULE_NAME или .родитель */
 
 .content_faq {
     background-color: #5f5c5c;
@@ -310,16 +361,16 @@ li {
     font-size: 13px;
 }
 
-dt {
+dt {/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
     background: url("../images/dot.gif")no-repeat 0;
     margin: 4px -8px;
     padding: 0 9px;
 }
 
-dd {
+dd {/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
     line-height: 20px;
 }
 
-.link_faq {
+.link_faq {/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
     color: #a7a7a7;
 }
