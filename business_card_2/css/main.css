@@ -20,6 +20,53 @@ body {
 
 /* =Basic styles
 ------------------------------------------------- */
+h1, h2, h4 {
+    color: #efcfa5;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #efcfa5;
+}
+
+a:hover {
+    color: #fff;
+}
+
+li {
+    list-style-image: url("../images/dot.png");
+    color: #5a972c;
+}
+
+ul {
+    color: #5a972c;
+    margin: 25px 0 0 35px;
+}
+
+b {
+    color: #a1c6dd;
+    margin-left: 117px;
+}
+
+dt {
+    background: url("../images/dot.gif")no-repeat 0;
+    margin: 4px -8px;
+    padding: 0 9px;
+}
+
+dd {
+    line-height: 20px;
+}
+
+input {
+    padding-left: 5px;
+}
+
+textarea {
+    padding-left: 5px;
+}
 
 /* =Header menu
 ------------------------------------------------- */
@@ -82,23 +129,27 @@ body {
     padding: 15px 42px 55px 15px;
 }
 
-.module_content_ {
-    display: flex;
-}
-
 /* =Module: Recent projects
 ------------------------------------------------- */
 .module_recent-projects .module_content {
     background: #5f5c5c;
+    padding: 10px 100px 15px 15px;
 }
 
 .module_recent-projects img {
     border: 5px solid #ede1d2;
-    margin-top: 5px;
+    margin: 5px 45px 0 2px;
 }
 
 /* =Module: Our projects
 ------------------------------------------------- */
+.module_our-projects .module_content {
+    background-color: #5f5c5c;
+    padding: 15px 18px;
+    display: flex;
+    flex-direction: column;
+}
+
 .module_our-projects .item--project {
     overflow: hidden;
     margin-bottom: 10px;
@@ -117,28 +168,128 @@ body {
     color: #a1c6dd;
 }
 
-/* =Module: XXXXXXXXXXXXXXXXXXX
-------------------------------------------------- */
-/* TODO: сюда писать свои модули */
+/* =Module: About
+/*------------------------------------------------- *!*/
+.module_about .module_content {
+    background-color: #5f5c5c;
+    margin: 0 0 20px 0;
+}
 
-/* =Module: XXXXXXXXXXXXXXXXXXX
+/* =Module: Featured Project
 ------------------------------------------------- */
-/* TODO: сюда писать свои модули */
+.module_featured-project .module_content {
+    background-color: #5f5c5c;
+    padding: 15px 18px;
+    display: flex;
+    flex-direction: row;
+}
 
-/* =Module: XXXXXXXXXXXXXXXXXXX
+.module_featured-project .content_client {
+    width: 66.66%;
+}
+
+.module_featured-project .content_client img {
+    margin: 5px 0;
+}
+
+.module_featured-project .project_text p {
+    margin: 25px 180px 0 0;
+}
+
+/* =Module: Contact Us
 ------------------------------------------------- */
-/* TODO: сюда писать свои модули */
+.module_contact-us .module_content {
+    background-color: #5f5c5c;
+    padding: 15px 18px;
+    display: flex;
+    flex-direction: column;
+}
 
-/* =Module: XXXXXXXXXXXXXXXXXXX
+.module_contact-us .field {
+    margin-bottom: 8px;
+}
+
+.module_contact-us .field textarea {
+    height: 140px;
+    width: 420px;
+}
+
+.module_contact-us .submit {
+    padding: 2px 90px;
+    background-color: #fff3;
+    border: 2px solid #fff;
+    margin-left: 10px;
+}
+
+/* =Module: Faq
 ------------------------------------------------- */
-/* TODO: сюда писать свои модули */
+.module_faq .module_content {
+    background-color: #5f5c5c;
+    padding: 20px 25px;
+    font-size: 13px;
+}
 
-/* =Footer
+.module_faq .link_faq {
+    color: #a7a7a7;
+}
+
+/* =Module: Price Menu
+------------------------------------------------- */
+.module_pricing .module_content {
+    background-color: #5f5c5c;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 0;
+}
+
+.module_pricing .price_menu1,
+.price_menu2 {
+    display: flex;
+    background: url("../images/pricing_desk.gif")0 0;
+    margin: 0 0 10px 0;
+}
+
+.price_menu1 p {
+    color: #5a972c;
+    font-size: 25px;
+}
+
+.price_menu2 p {
+    color: #5a972c;
+    font-size: 25px;
+}
+
+.module_pricing .product1 {
+    margin: 28px 20px;
+    color: #5a972c;
+}
+
+.module_pricing .product2 {
+    margin: 28px 20px;
+    color: #5a972c;
+}
+
+.module_pricing .purchase {
+    border-radius: 15px;
+    background: #c6e5ad;
+    font-size: 20px;
+    color: #5a972c;
+    padding: 1px 25px;
+    margin: 16px 165px;
+    border-color: #a8c78a;
+    cursor: pointer;
+}
+
+.module_pricing p {
+    margin: 30px 0 -10px 210px;
+}
+
+/* =Footer menu
 ------------------------------------------------- */
 .footer {
     background-color: #585555;
     position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -147,230 +298,4 @@ body {
 
 .footer a {
     margin: 0 7px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* TODO: Отрефакторить твой код в соответствии с моим (мой выше, твой ниже) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*=CONTENT ABOUT--------------------------------*/              /* TODO: к моему виду, стилю */
-h1, h2, h4 {
-    color: #efcfa5;
-    font-size: 18px;
-    font-family: sans-serif;
-    padding-bottom: 5px;
-}
-/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-a {
-    color: #efcfa5;
-}
-
-a:hover {
-    color: #fff;
-}
-/* TODO: to .module_MODULE_NAME */
-.content_about {
-    background-color: #5f5c5c;
-    border-top: 6px solid #7e7e7e;
-    margin: 0 470px 19px 0;
-    padding: 15px 18px;
-}
-/* TODO: to .module_MODULE_NAME */
-.content_project {
-    background-color: #5f5c5c;
-    border-top: 6px solid #7e7e7e;
-    margin: 0 514px 19px 0;
-    padding: 15px 18px;
-    display: flex;
-    flex-direction: row;
-}
-/* TODO: to .module_MODULE_NAME */
-.content_client {
-    width: 66.66%;
-}
-
-.content_client img {
-    margin: 5px 0;
-}
-/* TODO: to .module_MODULE_NAME */
-.project_text {
-    padding: 25px 0;
-    margin: -12px 20px;
-    width: 56.33%;
-}
-/* TODO: зачем .column */
-.column .testimonials_text {
-    border-top: 6px solid #7e7e7e;
-    padding: 15px 42px 55px 15px;
-}
-
-.column .project_text2 {
-    border-top: 6px solid #7e7e7e;
-    background-color: #5f5c5c;
-    padding: 15px 18px;
-}
-/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-b {
-    color: #a1c6dd;
-    margin-left: 117px;
-}
-
-/*CONTENT PORTFOLIO---------------------------*/
-/* TODO: to .module_MODULE_NAME */
-.portfolio_project {
-    background-color: #5f5c5c;
-    border-top: 6px solid #7e7e7e;
-    margin: 0 470px 19px 0;
-    padding: 15px 18px;
-    display: flex;
-    flex-direction: column;
-}
-
-.portfolio_content1,
-.portfolio_content2 {
-    display: flex;
-}
-
-.portfolio_client {
-    width: 66.66%;
-}
-
-.portfolio_text {
-    padding: 25px 0;
-    margin: -12px 20px;
-    width: 56.33%;
-}
-
-/*CONTACT CONTENT----------------*/
-/* TODO: to .module_MODULE_NAME */
-.contact_form {
-    background-color: #5f5c5c;
-    border-top: 6px solid #7e7e7e;
-    margin: 0 470px 19px 0;
-    padding: 15px 18px;
-}
-/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-.field {
-    margin-bottom: 8px;
-    padding: 3px 10px;
-}
-
-.field textarea {
-    height: 140px;
-    width: 420px;
-}
-/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-.submit {
-    padding: 2px 90px;
-    background-color: #fff3;
-    border: 2px solid #fff;
-    margin-left: 10px;
-}
-
-/*PRICE CONTENT-----------------*/
-/* TODO: to .module_MODULE_NAME или .родитель */
-.content_price {
-    background-color: #5f5c5c;
-    border-top: 6px solid #7e7e7e;
-    margin: 0 470px 19px 0;
-    padding: 15px 18px;
-    display: flex;
-    flex-direction: column;
-}
-/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-li {
-   list-style-image: url("../images/dot.png");
-    color: #5a972c;
- }
-/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-
-ul,
-li {
-    color: #5a972c;
-}
-/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-/* TODO: имя класса должно нести функциональную состовляющую а не визуальную */
-.green {
-    color: #5a972c;
-    padding: 10px 197px;
-    font-size: 25px;
-}
-/* TODO: родитель */
-.price_menu1,
-.price_menu2 {
-    display: flex;
-    flex-direction: row;
-    background: url("../images/pricing_desk.gif")0 0;
-    margin: 0 60px 10px -15px;
-}
-/* TODO: родитель */
-
-.product1,
-.product2 {
-    margin: 13px 25px;
-}
-/* TODO: родитель */
-
-.purchase {
-    border-radius: 15px;
-    background: #c6e5ad;
-    font-size: 20px;
-    color: #5a972c;
-    padding: 1px 25px;
-    margin: 16px 165px;
-    border-color: #a8c78a;
-}
-
-/*FAQ_____________________________*/
-/* TODO: to .module_MODULE_NAME или .родитель */
-
-.content_faq {
-    background-color: #5f5c5c;
-    border-top: 6px solid #7e7e7e;
-    margin: 0 466px 19px 0;
-    padding: 20px 25px;
-    font-size: 13px;
-}
-
-dt {/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-    background: url("../images/dot.gif")no-repeat 0;
-    margin: 4px -8px;
-    padding: 0 9px;
-}
-
-dd {/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-    line-height: 20px;
-}
-
-.link_faq {/* TODO: Если это общие стили то в Basic styles иначе предваряй селектор родителем .parent */
-    color: #a7a7a7;
 }
