@@ -19,20 +19,23 @@ body {
 
 /* =Basic styles
 ------------------------------------------------- */
-title {
+title { /* TODO: Зачем? */
     color: #61885b;
 }
 
-/* =Header Menu
+/* =Header
 ------------------------------------------------- */
-.logo {
-    margin: 50px 0;
-}
+/* TODO: .header .logo {} */
+/* TODO: .header .menu {} */
 
 .header {
     display: flex;
     flex-direction: row;
     background: url("../images/hat.jpg") no-repeat top;
+}
+
+.logo {
+    margin: 50px 0;
 }
 
 .header_menu {
@@ -97,17 +100,36 @@ title {
     margin: 32px -50px;
 }
 
+/*=Module: Columns
+----------------------------- */
+.columns {
+    display: flex;
+    margin-top: 15px;
+    border-bottom: 2px solid #0c5e67;
+    border-top: 2px solid #0c5e67;
+}
+
+.column_left {
+    width: 70%;
+    margin-top: 15px;
+}
+
+.column_right {
+    width: 30%;
+    margin-top: 15px;
+}
+
 /*=Module: Contact Us
 --------------------------------- */
+.module_contact-us .module_title {
+    margin: 10px 0 -15px 35px;
+    color: #61885b;
+}
+
 .module_contact-us .module_content {
     border-top: 2px solid #0c5e67;
     border-bottom: 2px solid #0c5e67;
     height: 500px;
-}
-
-.module_contact-us .module_title {
-    margin: 10px 0 -15px 35px;
-    color: #61885b;
 }
 
 .module_contact-us .form {
@@ -150,43 +172,16 @@ title {
 
 /*=Module: About Us
 ------------------------------- */
-.module_about-us .module_content {
-    border-top: 2px solid #0c5e67;
-}
-
 .module_about-us .module_title {
     margin-top: 10px;
 }
 
-.module_about-us p {
-    margin: 10px 0 10px 0;
-}
-
-/*=Module: Columns
------------------------------ */
-.columns {
-    display: flex;
-    margin-top: 15px;
-    border-bottom: 2px solid #0c5e67;
+.module_about-us .module_content {
     border-top: 2px solid #0c5e67;
 }
 
-.column_left {
-    width: 70%;
-    margin-top: 15px;
-}
-
-.column_right {
-    width: 30%;
-    margin-top: 15px;
-}
-
-.key {
-    background: #b1e1a7;
-    border-radius: 15px;
-    height: 200px;
-    width: 300px;
-    margin-top: 5px;
+.module_about-us p {
+    margin: 10px 0 10px 0;
 }
 
 /*=Module: Testimonials
@@ -195,16 +190,16 @@ title {
     height: 400px;
 }
 
-.module_testimonials a:hover {
-    color: #30b0cf;
-    margin: 0 8px;
-}
-
 .module_testimonials a {
     background: url("../images/dot.gif") no-repeat left;
     padding: 0 20px;
     flex-direction: column;
     display: flex;
+}
+
+.module_testimonials a:hover {
+    color: #30b0cf;
+    margin: 0 8px;
 }
 
 /*=Module: News
@@ -230,6 +225,10 @@ title {
 
 /*=Module: Other News
 ------------------------------------- */
+.module_other-news .module_title {
+    margin-bottom: 15px;
+}
+
 .module_other-news a {
     background: url("../images/dot.gif") no-repeat left;
     padding: 0 20px;
@@ -237,34 +236,30 @@ title {
     display: flex;
 }
 
-.module_other-news .module_title {
-    margin-bottom: 15px;
-}
-
 /*=Module: Project
 --------------------------------- */
-.module_project .module_title {
-    margin-bottom: 15px;
-}
-
 .module_project {
     height: 500px;
 }
 
-.project_gallery {
+.module_project .module_title {
+    margin-bottom: 15px;
+}
+
+.project_gallery {/* TODO: родитель? */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.project_gallery .item img {
+.project_gallery .item img {/* TODO: родитель? */
     border: 10px solid #254f5e;
     height: 170px;
     width: 260px;
     margin: 10px 15px;
 }
 
-.project_gallery .item:hover {
+.project_gallery .item:hover {/* TODO: родитель? */
     color: grey;
 }
 
@@ -315,4 +310,13 @@ title {
 
 .footer a {
     color: #fff;
+}
+
+/* TODO: что это? кому принадлежит? какому модулю? */
+.key {
+    background: #b1e1a7;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    margin-top: 5px;
 }
