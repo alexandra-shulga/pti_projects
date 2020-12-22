@@ -195,11 +195,11 @@ title { /* TODO: Зачем? */
     padding: 0 20px;
     flex-direction: column;
     display: flex;
+    color: #30b0cf;
 }
 
 .module_testimonials a:hover {
-    color: #30b0cf;
-    margin: 0 8px;
+    text-decoration: none;
 }
 
 /*=Module: News
