@@ -10,10 +10,9 @@
 <body>
     <div class="page">
         <div class="header">
-            <a href="#">
-                <div class="logo"><img alt="#" src="images/logo.png"/></div>
-            </a>
-            <div class="hat"><img alt="#" src="images/hat.jpg"/></div>
+            <div class="logo">
+                <a href="#"><img alt="#" src="images/logo.png"/></a>
+            </div>
         </div>
 
         <div class="header_menu">
@@ -23,10 +22,10 @@
             <a href="contact.htm" class="menu_support">Support<img alt="#" src="images/menu_4_text.png"/></a>
         </div>
 
-        <div class="content">
-            <div class="column">
-                <div class="module_project">
-                    <div class="left"><!-- TODO: Модули в колонках это нормально, но ГЛОБАЛЬНАЯ колонка в модуле это пиздец! -->
+        <div class="columns">
+            <div class="column_left">
+                <div class="module module_project">
+                    <div class="module_content">
                         <h3 class="module_title">Projects we took part in</h3>
 
                         <div class="project_gallery"><!-- TODO: Igor почему ололо-трололо? -->
@@ -41,28 +40,26 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="right">
-                    <div class="module_testimonials">
+            <div class="column_right">
+                <div class="module module_testimonials">
+                    <div class="module_content">
                         <h3 class="module_title">Testimonials</h3>
-                        <!-- TODO: маркерованный список (list-style-image VS background-image у li) -->
-                        <img alt="#" src="images/dot.gif"/><a href="#">Testimonials</a><br>
-                        <br><!-- TODO: зачем? margin-bottom ? -->
-                        <img alt="#" src="images/dot.gif"/><a href="#">Super web system</a><br>
-                        <br><!-- TODO: зачем? margin-bottom ? -->
-                        <img alt="#" src="images/dot.gif"/><a href="#">Another great project</a><br>
-                        <br><!-- TODO: зачем? margin-bottom ? -->
-                        <img alt="#" src="images/dot.gif"/><a href="#">Just awesome!</a>
+
+                        <a href="#">Super web system</a>
+                        <a href="#">Another great project</a>
+                        <a href="#">Just awesome!</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="footer">
-            <div class="link">
-                &copy; 2007-2008 <a href="#">imgdaddy.com</a>
-            </div>
+    <div class="footer">
+        &copy; 2007-2008 <a href="#">imgdaddy.com</a>
 
+        <div class="footer_menu">
             <a href="index.htm">Home</a>
             <a href="index.htm">Features</a>
             <a href="services.htm">Demo</a>

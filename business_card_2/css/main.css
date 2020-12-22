@@ -250,12 +250,12 @@ textarea {
     margin: 0 0 10px 0;
 }
 
-.price_menu1 p {
+.module_pricing .price_menu1 p {
     color: #5a972c;
     font-size: 25px;
 }
 
-.price_menu2 p {
+.module_pricing .price_menu2 p {
     color: #5a972c;
     font-size: 25px;
 }

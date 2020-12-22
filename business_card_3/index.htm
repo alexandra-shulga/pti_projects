@@ -10,10 +10,9 @@
 <body>
     <div class="page">
         <div class="header">
-            <a href="#">
-                <div class="logo"><img alt="#" src="images/logo.png"/></div>
-            </a><!-- TODO: DIV в <a> использовать НЕЛЬЗЯ посмотри contact.html -->
-            <div class="hat"><img alt="#" src="images/hat.jpg"/></div>
+            <div class="logo">
+                <a href="#"><img alt="#" src="images/logo.png"/></a>
+            </div>
         </div>
 
         <div class="header_menu">
@@ -23,9 +22,9 @@
             <a href="contact.htm" class="menu_support">Support<img alt="#" src="images/menu_4_text.png"/></a>
         </div>
 
-        <div class="content">
-            <div class="module_about_us">
-                <h3 class="module_title">About “Company name”</h3>
+        <div class="module module_about-us">
+            <div class="module_content">
+                <h3 class="module_title">About "Company Name"</h3>
 
                 <p>
                     About company text, about company text, about company text, about company text, about company text,
@@ -33,33 +32,33 @@
                     about company text, about company text, about company text, about company text.
                 </p>
             </div>
-
-            <div class="column"><!-- TODO: давай называть это .columns -->
-                <div class="left"><!-- TODO: давай называть это .column_left -->
-                    <div class="module_testimonials">
-                        <h3 class="module_title">Testimonials</h3>
-
-                        <img alt="#" src="images/dot.gif"/><a href="#">Promo site launched</a><br>
-                        <br><!-- TODO: Хуй с ним но на будущее используй CSS margin -->
-                        <img alt="#" src="images/dot.gif"/><a href="#">New service tested, FeedSolo, read more...</a><br>
-                        <br><!-- TODO: Хуй с ним но на будущее используй CSS margin -->
-                        <img alt="#" src="images/dot.gif"/><a href="#">Promo site launched</a>
-                    </div>
-                </div>
-
-                <div class="right"><!-- TODO: давай называть это .column_right -->
-                    <h3 class="module_title">The Key Features</h3>
-
-                    <div class="key"></div>
-                </div>
-            </div>
         </div>
 
-        <div class="footer">
-            <div class="link">
-                &copy; 2007-2008 <a href="#">imgdaddy.com</a>
+        <div class="columns">
+            <div class="column_left">
+                <div class="module module_testimonials">
+                    <div class="module_content">
+                        <h3 class="module_title">Testimonials</h3>
+
+                        <a href="#">Promo site launched</a>
+                        <a href="#">New service tested, FeedSolo, read more...</a>
+                        <a href="#">Promo site launched</a>
+                    </div>
+                </div>
             </div>
-            <!-- TODO: .copyright и .menu -->
+
+            <div class="column_right">
+                <h3 class="module_title">The Key Features</h3>
+
+                <div class="key"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2007-2008 <a href="#">imgdaddy.com</a>
+
+        <div class="footer_menu">
             <a href="index.htm">Home</a>
             <a href="index.htm">Features</a>
             <a href="services.htm">Demo</a>
@@ -67,6 +66,6 @@
             <a href="contact.htm">Support</a>
             <a href="news.htm">Order</a>
         </div>
-    </div>
+</div>
 </body>
 </html>

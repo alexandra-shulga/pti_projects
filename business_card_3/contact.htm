@@ -10,12 +10,8 @@
 <body>
     <div class="page">
         <div class="header">
-                <div class="logo"><!-- лишний сдвиг -->
-                    <a href="#"><img alt="#" src="images/logo.png"/></a>
-                </div>
-
-            <div class="hat">
-                <img alt="#" src="images/hat.jpg"/><!--TODO: Декоративные изображения на фон -->
+            <div class="logo">
+                <a href="#"><img alt="#" src="images/logo.png"/></a>
             </div>
         </div>
 
@@ -26,27 +22,26 @@
             <a href="contact.htm" class="menu_support">Support<img alt="#" src="images/menu_4_text.png"/></a>
         </div>
 
-        <div class="content">
-            <div class="module_contact-us">
+        <div class="module module_contact-us">
+            <div class="module_content">
                 <h3 class="module_title">Contact us</h3>
-
                 <form class="form">
-                    <div class="field1"><!-- TODO: Просто .field и если тебе надо text-align: right то используй его -->
+                    <div class="field">
                         <label for="name">Name:</label>
                         <input type="text" id="name">
                     </div>
 
-                    <div class="field2"><!-- TODO: Просто .field и если тебе надо text-align: right то используй его -->
+                    <div class="field">
                         <label for="e-mail">E-mail:</label>
                         <input type="text" id="e-mail">
                     </div>
 
-                    <div class="field3"><!-- TODO: Просто .field и если тебе надо text-align: right то используй его -->
+                    <div class="field">
                         <label for="subject">Subject:</label>
                         <input type="text" id="subject">
                     </div>
 
-                    <div class="field4"><!-- TODO: Просто .field и если тебе надо text-align: right то используй его -->
+                    <div class="field">
                         <label for="message">Message:</label>
                         <textarea id="message"></textarea>
                     </div>
@@ -57,12 +52,12 @@
                 </form>
             </div>
         </div>
+    </div>
 
-        <div class="footer">
-            <div class="link">
-                &copy; 2007-2008 <a href="#">imgdaddy.com</a>
-            </div>
-<!-- TODO: .copyright и .menu -->
+    <div class="footer">
+        &copy; 2007-2008 <a href="#">imgdaddy.com</a>
+
+        <div class="footer_menu">
             <a href="index.htm">Home</a>
             <a href="index.htm">Features</a>
             <a href="services.htm">Demo</a>
@@ -73,5 +68,3 @@
     </div>
 </body>
 </html>
-
-<!-- TODO: Элементы форм как в дизайне (скорей всего были отступы) -->

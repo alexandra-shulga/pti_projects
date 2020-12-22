@@ -10,8 +10,9 @@
 <body>
     <div class="page">
         <div class="header">
-            <a href="#"><div class="logo"><img alt="#" src="images/logo.png"/></div></a>
-            <div class="hat"><img alt="#" src="images/hat.jpg"/></div>
+            <div class="logo">
+                <a href="#"><img alt="#" src="images/logo.png"/></a>
+            </div>
         </div>
 
         <div class="header_menu">
@@ -21,43 +22,38 @@
             <a href="contact.htm" class="menu_support">Support<img alt="#" src="images/menu_4_text.png"/></a>
         </div>
 
-        <div class="content"><!-- TODO: давай называть это .columns -->
-            <div class="module_service">
-                <div class="service">
-                    <h2>Web developing</h2>
-                    <img alt="#" src="images/dot2.gif"/>High quality<br>
-                    <br><!-- TODO: зачем? margin-bottom ? -->
-                    <img alt="#" src="images/dot2.gif"/>Reasonable prices<br>
-                    <br><!-- TODO: зачем? margin-bottom ? -->
-                    <img alt="#" src="images/dot2.gif"/>Reliable team
+        <div class="columns">
+            <div class="module module_service">
+                <div class="module_content">
+                    <div class="service">
+                        <ul>Web developing</ul>
+                        <li>High quality</li>
+                        <li>Reasonable prices</li>
+                        <li>Reliable team</li>
+                    </div>
                 </div>
 
                 <div class="service">
-                    <h2>Custom design</h2>
-                    <!-- TODO: маркерованный список (list-style-image VS background-image у li) -->
-                    <img alt="#" src="images/dot2.gif"/>Custom icon design<br>
-                    <br><!-- TODO: зачем? margin-bottom ? -->
-                    <img alt="#" src="images/dot2.gif"/>Corporate identity<br>
-                    <br><!-- TODO: зачем? margin-bottom ? -->
-                    <img alt="#" src="images/dot2.gif"/>Unique
+                    <ul>Custom design</ul>
+                    <li>Custom icon design</li>
+                    <li>Corporate identity</li>
+                    <li>Unique</li>
                 </div>
 
                 <div class="service">
-                    <h2>Hot Job</h2>
-                    <img alt="#" src="images/dot2.gif"/>html-coder<br>
-                    <br><!-- TODO: зачем? margin-bottom ? -->
-                    <img alt="#" src="images/dot2.gif"/>php-programmer<br>
-                    <br><!-- TODO: зачем? margin-bottom ? -->
-                    <img alt="#" src="images/dot2.gif"/>wip-designer
+                    <ul>Hot Job</ul>
+                    <li>html-coder<br>
+                    <li>php-programmer</li>
+                    <li>wip-designer</li>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="footer">
-            <div class="link">
-                &copy; 2007-2008 <a href="#">imgdaddy.com</a>
-            </div>
+    <div class="footer">
+        &copy; 2007-2008 <a href="#">imgdaddy.com</a>
 
+        <div class="footer_menu">
             <a href="index.htm">Home</a>
             <a href="index.htm">Features</a>
             <a href="services.htm">Demo</a>
