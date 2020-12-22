@@ -9,3 +9,13 @@ body {
     Copyright в footer написан с
     font-family: Arial, Helvetica, sans-serif;
 */
+
+.xxx {/* TODO: удали это потом как разберешься */
+    margin: 0 10px;
+    padding-left: 15px;
+    background: #fff url(../images/4.gif) no-repeat 0 4px;
+}
+
+.xxx:hover {/* TODO: google "что такое css спрайты" например, https://idg.net.ua/blog/uchebnik-css/ispolzovanie-css/sprites */
+    background-position: 0 -13px;
+}
