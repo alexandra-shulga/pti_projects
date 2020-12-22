@@ -29,33 +29,33 @@ title { /* TODO: Зачем? */
 /* TODO: .header .menu {} */
 
 .header {
-    display: flex;
-    flex-direction: row;
+    padding-top: 100px;
     background: url("../images/hat.jpg") no-repeat top;
 }
 
-.logo {
-    margin: 50px 0;
+.header .logo {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-.header_menu {
+.header .menu {
     display: flex;
     margin: 0 0 15px 10px;
 }
 
-.header_menu a {
+.header .menu a {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
     padding: 0 15px;
 }
 
-.menu_features {
-    background: linear-gradient(0deg, #b0cbab, #4CAF50);
+.header .menu .menu_features {
+    background: url("../images/menu_1_text.png") no-repeat 12px 30px, linear-gradient(0deg, #b0cbab, #4CAF50);
     margin-right: 15px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    padding: 0 40px;
+    padding: 65px 15px 0;
     color: #fff;
     text-decoration: none;
     height: 130px;
@@ -252,14 +252,35 @@ title { /* TODO: Зачем? */
     flex-wrap: wrap;
 }
 
+.project_gallery .item {
+    display: block;
+    position: relative;
+    margin: 10px 15px;
+}
+
+.project_gallery .item .shadow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: black;
+    opacity: 0.4;
+    display: none;
+}
+
+.project_gallery .item:hover .shadow {
+    display: block;
+}
+
 .project_gallery .item img {/* TODO: родитель? */
     border: 10px solid #254f5e;
     height: 170px;
     width: 260px;
-    margin: 10px 15px;
+    display: block;
 }
 
-.project_gallery .item:hover {/* TODO: родитель? */
+.project_gallery .item:hover {/* TODO: родитель? зачем grey? */
     color: grey;
 }
 
