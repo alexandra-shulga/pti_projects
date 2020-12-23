@@ -45,7 +45,7 @@ a:hover {
     color: #433f3f;
 }
 
-.link:last-child {
+.link:last-child {/* TODO: родитель? */
     padding-left: 221px;
 }
 
@@ -124,7 +124,7 @@ a:hover {
     margin: -4px 0 0 245px;
 }
 
-.link2 {
+.link2 {/* TODO: родитель? */
     color: #fff;
     font-size: 12px;
     background: #1F6988;
@@ -133,7 +133,7 @@ a:hover {
     padding: 4px 30px;
 }
 
-.link3 {
+.link3 {/* TODO: родитель? */
     color: #fff;
     font-size: 12px;
     background: url("../images/1.gif") no-repeat;
@@ -141,7 +141,7 @@ a:hover {
     margin: 9px 6px;
 }
 
-.link4 {
+.link4 {/* TODO: родитель? */
     color: #fff;
     font-size: 12px;
     background: url("../images/2.gif") no-repeat;
@@ -179,7 +179,7 @@ a:hover {
     margin: -70px 0 -10px 490px;
 }
 
-.number1 {
+.number1 {/* TODO: родитель? */
     background-color: #2fbaf1;
     border-radius: 4px;
     padding: 10px 15px;
@@ -188,10 +188,10 @@ a:hover {
     text-decoration: none;
 }
 
-.number2,
-.number3,
-.number4,
-.number5 {
+.number2,/* TODO: родитель? */
+.number3,/* TODO: родитель? */
+.number4,/* TODO: родитель? */
+.number5 {/* TODO: родитель? */
     background-color: #218fbb;
     border-radius: 4px;
     padding: 10px 15px;
