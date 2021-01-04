@@ -2,20 +2,372 @@ body {
     color: #4f4f4f;
     font-size: 13px;
     font-family: Tahoma, Arial, sans-serif;
-    background: #ededed;
+    background: linear-gradient(#eeee, #d6d6);
 }
 
-/*
-    Copyright в footer написан с
-    font-family: Arial, Helvetica, sans-serif;
-*/
+.page {
+    width: 950px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-bottom: 120px;
+    position: relative;
+}
 
-.xxx {/* TODO: удали это потом как разберешься */
-    margin: 0 10px;
+/*=Module: Basic Styles
+---------------------------------- */
+
+a:hover {
+    text-decoration: none;
+}
+
+/*=Module: Columns
+----------------------------------- */
+.columns {
+    display: flex;
+    background: #fff;
+    height: 550px;
+}
+
+.column_left {
+    width: 25%;
+}
+
+.column_center {
+    width: 70%;
+}
+
+.column_right {
+    width: 25%;
     padding-left: 15px;
-    background: #fff url(../images/4.gif) no-repeat 0 4px;
 }
 
-.xxx:hover {/* TODO: google "что такое css спрайты" например, https://idg.net.ua/blog/uchebnik-css/ispolzovanie-css/sprites */
-    background-position: 0 -13px;
+.column_columns {
+    display: flex;
+}
+
+.column_columns .column_right {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.column_columns .column_left {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+/*=Module: Header
+---------------------------------- */
+.header {
+    background: #fff;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_menu {
+    padding: 150px 0 0 598px;
+}
+
+.logo_menu a {
+    text-decoration: none;
+}
+
+.logo {
+    margin: 25px 0 0 40px;
+}
+
+.logo_menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: -20px 60px;
+    padding: 0 0 0 20px;
+}
+
+.logo_menu .home {
+    margin: 0 35px;
+    padding: 0 0 0 20px;
+    background: url("../images/5.gif") no-repeat 0 2px;
+}
+
+.logo_menu .home:hover {
+    background-position: 0 -14px;
+}
+
+.logo_menu .contact-us {
+    padding: 0 0 0 20px;
+    background: url("../images/4.gif") no-repeat 0 4px;
+}
+
+.logo_menu .contact-us:hover {
+    background-position: 0 -12px;
+}
+
+.header_menu {
+    background: url("../images/8.jpg") no-repeat;
+}
+
+.header_menu a {
+    padding: 5px 10px;
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-decoration: none;
+    color: #2faed8;
+    font-weight: bold;
+}
+
+/*=Module:Column left
+----------------------------- */
+.column_left ul {
+    background: #ececec;
+    margin: 15px 15px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid #d8d8d8;
+}
+
+.column_left li {
+    font-weight: bold;
+}
+
+.column_left li::marker {
+    color: #2faed8;
+}
+
+/*=Module:About Us
+------------------------------- */
+.module_about-us a {
+    color: #2faed8;
+}
+
+.module_about-us p {
+    margin: 20px 0;
+    color: #6b6b6b;
+}
+
+/*=Module:Our Advantages
+--------------------------------------- */
+.module_our-advantages h1 {
+    color: #8c8686;
+    font-size: 16px;
+    margin: 25px 0;
+    padding: 2px 0;
+    border-bottom: 2px solid #8c8686;
+}
+
+.our-advantages-text {
+    padding: 0 20px;
+}
+
+.module_title {
+    color: #2faeda;
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+
+.module_our-advantages p {
+    line-height: 20px;
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+.module_our-advantages a {
+    color: #2faeda;
+}
+
+/*=Module:Contact Us
+---------------------------- */
+.module_contact-us h1 {
+    color: #8c8686;
+    font-size: 16px;
+    margin: 25px 0;
+    padding: 2px 0;
+    border-bottom: 2px solid #8c8686;
+}
+
+.module_contact-us .field {
+    display: flex;
+    flex-direction: column;
+    color: #6b6b6b;
+}
+
+.module_contact-us .field input {
+    margin: 3px 300px 8px 0;
+    font-size: 10px;
+}
+
+.module_contact-us .field textarea {
+    margin: 3px 300px 8px 0;
+    height: 100px;
+}
+
+.module_contact-us .file {
+    border: 1px solid #a9a9a9;
+}
+
+.module_contact-us .field-code {
+    margin: 5px 300px 7px 58px;
+    border: 1px solid #a9a9a9;
+}
+
+.module_contact-us button {
+    border: 2px solid #d8d8d8;
+    padding: 0 20px;
+    background: #ececec;
+    border-radius: 4px;
+    color: #6b6b6b;
+}
+
+/*=Module:Column Right
+---------------------------------------- */
+.column_right .contact-form {
+    display: flex;
+    flex-direction: column;
+    background: #ececec;
+    margin: 15px 5px;
+    padding: 0 5px 5px 5px;
+    border-radius: 10px;
+    border: 2px solid #d8d8d8;
+}
+
+.column_right p {
+    margin: 12px 0 15px 0;
+}
+
+.column_right a {
+    color: #2faed8;
+    margin: 4px 2px;
+}
+
+.column_right .contact-us {
+    padding: 0 25px;
+    background: url("../images/12.gif") no-repeat 0 -16px;
+}
+
+.column_right .contact-us:hover {
+    background-position: 0 2px;
+}
+
+.column_right .call-us {
+    padding: 5px 25px;
+    background: url("../images/11.gif") no-repeat 0 -30px;
+}
+
+.column_right .call-us:hover {
+    background-position: 0 0;
+}
+
+/*=Module: Software Development
+------------------------- */
+.module_software-development h3 {
+    color: #2faed8;
+    margin-bottom: -10px;
+}
+
+.module_software-development p {
+    background: linear-gradient(to bottom, #f3f3f3, #fff);
+    border-top: 3px solid #d8d8d8;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6b6b6b;
+}
+
+.module_software-development a {
+    margin-left: 150px;
+    color: #2faed8;
+    /*background: url("../images/10.gif") no-repeat;*/
+    text-decoration: none;
+}
+
+.module_software-development .learn_more {
+    padding: 0 20px 0 0;
+    background: url("../images/7.gif") no-repeat 75px -9px;
+}
+
+.module_software-development .learn_more:hover {
+    background-position: 75px 6px;
+}
+
+/*=Module: Web Development
+------------------------------- */
+.module_web-development h3 {
+    color: #2faed8;
+    margin-bottom: -10px;
+}
+
+.module_web-development p {
+    background: linear-gradient(to bottom, #f3f3f3, #fff);
+    border-top: 3px solid #d8d8d8;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6b6b6b;
+}
+
+.module_web-development a {
+    color: #2faed8;
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+.module_web-development .learn_more {
+    padding: 0 20px 0 0;
+    background: url("../images/7.gif") no-repeat 75px -9px;
+}
+
+.module_web-development .learn_more:hover {
+    background-position: 75px 6px;
+}
+
+/*=Module:Featured Project
+------------------------------------------ */
+.module_featured-project {
+    border-top: 2px dotted #a1a1a1;
+}
+
+.module_featured-project h3 {
+    color: #2faed8;
+}
+
+.module_featured-project .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.module_featured-project .item {
+    background: url("../images/6.gif") no-repeat;
+    padding: 2px 60px 70px 90px;
+}
+
+.module_featured-project .item img {
+    border: 5px solid #ddd;
+}
+
+/*=Module:Footer
+---------------------------- */
+.footer {
+    background: #eeeeee;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+    background: url("../images/2.gif") no-repeat;
+    color: #2faed8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px 45px;
+}
+
+.footer .menu {
+    margin: 12px 0 0 280px;
+}
+
+.footer .menu a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #6b6b6b;
 }

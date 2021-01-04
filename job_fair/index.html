@@ -8,76 +8,82 @@
 </head>
 
 <body>
-    <div class="page">
-        <div class="module module_menu1"><!-- TODO: зачем ты назвала это .module.module_menu1 если это просто .menu1 как и было раньше -->
-            <a class="link" href="#">Сайт в избранное</a>
-            <a class="link" href="#">Рекомендовать сайт</a><!-- TODO: давай .item -->
-            <a class="link" href="#">Баннеры и гаджеты</a>
-            <a class="link" href="#">Установить счетчики</a>
-            <a class="link" href="#">Подписаться на новости</a>
-            <a class="link" href="#">RSS</a>
-            <a class="link" href="#">Помощь</a>
+<div class="page">
+    <div class="menu">
+        <a class="item" href="#">Сайт в избранное</a>
+        <a class="item" href="#">Рекомендовать сайт</a>
+        <a class="item" href="#">Баннеры и гаджеты</a>
+        <a class="item" href="#">Установить счетчики</a>
+        <a class="item" href="#">Подписаться на новости</a>
+        <a class="item" href="#">RSS</a>
+        <a class="item" href="#">Помощь</a>
+    </div>
+
+    <div class="header">
+        <div class="logo">
+            <a href="#">
+                <img alt="#" src="images/3.gif"/>
+            </a>
         </div>
-<!-- TODO: Переделай эту секцию. Тут .header а в нем .menu1, .logo, .module_news и две ссылки и регистрация -->
-        <div class="header">
-            <img alt="#" src="images/3.gif"/><!-- TODO: логотип это картинка в ссылке-->
-            <div class="header_menu">
-                <a class="link2" href="#">&#9668 Сегодня открылась новая версия нашего сайта... &#9658</a><!-- TODO: это модуль новости -->
-                <a class="link3" href="#">Войти</a>
-                <a class="link4" href="#">Регистрация</a>
+
+        <div class="menu1">
+            <div class="module module_news">
+            <a class="item2" href="#">&#9668 Сегодня открылась новая версия нашего сайта... &#9658</a>
             </div>
+
+            <a class="item3" href="#">Войти</a>
+            <a class="item4" href="#">Регистрация</a>
+        </div>
+    </div>
+</div>
+
+<div class="page2">
+    <div class="menu2">
+        <a class="item" href="#">Главная</a>
+        <a class="item" href="#">Рейтинги</a>
+        <a class="item" href="#">Новости</a>
+        <a class="item" href="#">База знаний</a>
+        <a class="item" href="#">Форум</a>
+        <a class="item_login" href="#">Личный кабинет</a>
+        <a class="item_exit" href="#">Выйти</a>
+        <a class="item_more" href="#">&#9660</a><!-- TODO: Это вообще относится к модулю Banner -->
+    </div>
+
+    <div class="module module_content">
+        <div class="module_banner">
+            <h3>Карта рынка труда России</h3>
+
+            <div class="pagination">
+                <a href="#" class="item1">1</a>
+                <a href="#" class="item2">2</a>
+                <a href="#" class="item3">3</a>
+                <a href="#" class="item4">4</a>
+                <a href="#" class="item5">5</a>
+            </div>
+
+            <p>
+                Интернет-проект, объединяющий в рамках одного портала все самые необходимые соискателю ресурсы по поиску
+                работы и предоставляющий прямой доступ к лучшим компаниям-работодателям, кадровым агентствам, сайтам по
+                поиску работы, ярмаркам вакансий, газетам и журналам по карьере в любом городе России.
+            </p>
+
+            <p>
+                Интернет-проект, объединяющий в рамках одного портала все самые необходимые соискателю ресурсы по поиску
+                работы и предоставляющий прямой доступ к лучшим компаниям-работодателям, кадровым агентствам, сайтам по
+                поиску работы, ярмаркам вакансий, газетам и журналам по карьере в любом городе России.
+            </p>
         </div>
     </div>
 
-    <div class="page2">
-        <div class="module module_menu2"><!-- TODO: зачем ты назвала это .module.module_menu2 если это просто .menu2 как и было раньше -->
-            <a class="window" href="#">Главная</a>
-            <a class="window" href="#">Рейтинги</a>
-            <a class="window" href="#">Новости</a><!-- TODO: странное название .window это же просто пункты меню как и везде .item-->
-            <a class="window" href="#">База.знаний</a>
-            <a class="window" href="#">Форум</a>
-            <a class="window_login" href="#">Личный.кабинет</a>
-            <a class="window_exit" href="#">Выйти</a>
-            <a class="window_more" href="#">&#9660</a><!-- TODO: Это вообще относится к модулю Banner -->
-        </div>
+    <div class="module module_content_field"></div>
 
-        <div class="module module_content">
-            <div class="content_text"><!-- TODO: Это должен был быть модуль Banner -->
-                <h3>Карта рынка труда России</h3>
-
-                <div class="menu_numbers"><!-- TODO: давай .pagination -->
-                    <a href="#" class="number1">1</a>
-                    <a href="#" class="number2">2</a>
-                    <a href="#" class="number3">3</a><!-- TODO: давай .item -->
-                    <a href="#" class="number4">4</a>
-                    <a href="#" class="number5">5</a>
-                </div>
-
-                <p>
-                    Интернет-проект, объединяющий в рамках одного портала все самые необходимые соискателю ресурсы
-                    по поиску работы и предоставляющий прямой доступ к лучшим компаниям-работодателям,
-                    кадровым агентствам, сайтам по поиску работы, ярмаркам вакансий, газетам и журналам по карьере
-                    в любом городе России.
-                </p>
-
-                <p>
-                    Интернет-проект, объединяющий в рамках одного портала все самые
-                    необходимые соискателю ресурсы по поиску работы и предоставляющий прямой доступ к лучшим
-                    компаниям-работодателям, кадровым агентствам, сайтам по поиску работы, ярмаркам вакансий,
-                    газетам и журналам по карьере в любом городе России.
-                </p>
-            </div>
-        </div>
-
-        <div class="module module_content_field"></div>
-
-        <div class="footer">
-            <a href="#">О проекте</a>
-            <a href="#">Обратная связь</a>
-            <a href="#">Статистика проекта</a>
-            <a href="#">Партнерская программа</a>
-            <a href="#">Юридические.соглашения</a>
-        </div>
+    <div class="footer">
+        <a href="#">О проекте</a>
+        <a href="#">Обратная связь</a>
+        <a href="#">Статистика проекта</a>
+        <a href="#">Партнерская программа</a>
+        <a href="#">Юридические.соглашения</a>
     </div>
+</div>
 </body>
 </html>

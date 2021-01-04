@@ -34,29 +34,29 @@ a:hover {
 
 /*=Module: Menu
 ------------------------------------------ */
-.module_menu1 {
+.menu {
     background-color: #ececec;
     font-size: 10px;
     padding: 5px 280px;
 }
 
-.module_menu1 .link {
+.menu .item {
     padding: 8px;
     color: #433f3f;
 }
 
-.link:last-child {/* TODO: родитель? */
+.item:last-child {/* TODO: родитель? */
     padding-left: 221px;
 }
 
-.module_menu2 {
+.menu2 {
     display: flex;
     flex-direction: row;
     font-size: 12px;
     margin: -4px 0;
 }
 
-.module_menu2 .window {
+.menu2 .item {
     margin: -25px 12px 4px 0;
     color: #fff;
     padding: 7px 18px 0 18px;
@@ -66,7 +66,7 @@ a:hover {
     text-decoration: none;
 }
 
-.module_menu2 .window:first-child {
+.menu2 .item:first-child {
     padding: 7px 30px;
     background: #043a4f;
     border-top-left-radius: 5px;
@@ -74,7 +74,7 @@ a:hover {
     text-decoration: none;
 }
 
-.module_menu2 .window_login {
+.menu2 .item_login {
     padding: 7px 30px;
     background: #89c160;
     border-top-left-radius: 5px;
@@ -84,7 +84,7 @@ a:hover {
     text-decoration: none;
 }
 
-.module_menu2 .window_exit {
+.menu2 .item_exit {
     margin: -25px 10px 4px 71px;
     padding: 7px 18px 0 15px;
     background: #74b8d2;
@@ -94,7 +94,7 @@ a:hover {
     text-decoration: none;
 }
 
-.module_menu2 .window_more {
+.menu2 .item_more {
     background: #1f617a;
     padding: 3px 5px;
     border-top-left-radius: 5px;
@@ -120,11 +120,11 @@ a:hover {
     cursor: pointer;
 }
 
-.header_menu {
+.menu1 {
     margin: -4px 0 0 245px;
 }
 
-.link2 {/* TODO: родитель? */
+.menu1 .item2 {/* TODO: родитель? */
     color: #fff;
     font-size: 12px;
     background: #1F6988;
@@ -133,7 +133,7 @@ a:hover {
     padding: 4px 30px;
 }
 
-.link3 {/* TODO: родитель? */
+.menu1 .item3 {
     color: #fff;
     font-size: 12px;
     background: url("../images/1.gif") no-repeat;
@@ -141,11 +141,11 @@ a:hover {
     margin: 9px 6px;
 }
 
-.link4 {/* TODO: родитель? */
+.menu1 .item4 {
     color: #fff;
     font-size: 12px;
     background: url("../images/2.gif") no-repeat;
-    padding: 10px 7px 12px 81px;
+    padding: 10px 35px 18px 55px;
 }
 
 /*=Module: Content
@@ -156,7 +156,7 @@ a:hover {
     padding: 0 170px 0 30px;
 }
 
-.content_text p {
+.module_banner p {
     color: #fff;
     font-size: 12px;
 }
@@ -171,7 +171,7 @@ a:hover {
 
 /*=Module: Numbers
 ----------------------------------------- */
-.menu_numbers {
+.pagination {
     display: flex;
     flex-direction: row;
     padding: 10px 15px;
@@ -179,7 +179,7 @@ a:hover {
     margin: -70px 0 -10px 490px;
 }
 
-.number1 {/* TODO: родитель? */
+.pagination .item1 {/* TODO: родитель? */
     background-color: #2fbaf1;
     border-radius: 4px;
     padding: 10px 15px;
@@ -188,10 +188,34 @@ a:hover {
     text-decoration: none;
 }
 
-.number2,/* TODO: родитель? */
-.number3,/* TODO: родитель? */
-.number4,/* TODO: родитель? */
-.number5 {/* TODO: родитель? */
+.pagination .item2 {
+    background-color: #218fbb;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pagination .item3 {
+    background-color: #218fbb;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pagination .item4 {
+    background-color: #218fbb;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pagination .item5 {
     background-color: #218fbb;
     border-radius: 4px;
     padding: 10px 15px;

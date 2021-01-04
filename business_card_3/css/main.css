@@ -17,12 +17,6 @@ body {
     position: relative;
 }
 
-/* =Basic styles
-------------------------------------------------- */
-title { /* TODO: Зачем? */
-    color: #61885b;
-}
-
 /* =Header
 ------------------------------------------------- */
 /* TODO: .header .logo {} */
@@ -31,11 +25,13 @@ title { /* TODO: Зачем? */
 .header {
     padding-top: 100px;
     background: url("../images/hat.jpg") no-repeat top;
+    border-bottom: 2px solid #0c5e67;
 }
 
 .header .logo {
     display: inline-block;
     margin-bottom: 10px;
+
 }
 
 .header .menu {
@@ -105,8 +101,6 @@ title { /* TODO: Зачем? */
 .columns {
     display: flex;
     margin-top: 15px;
-    border-bottom: 2px solid #0c5e67;
-    border-top: 2px solid #0c5e67;
 }
 
 .column_left {
@@ -127,8 +121,6 @@ title { /* TODO: Зачем? */
 }
 
 .module_contact-us .module_content {
-    border-top: 2px solid #0c5e67;
-    border-bottom: 2px solid #0c5e67;
     height: 500px;
 }
 
@@ -172,16 +164,24 @@ title { /* TODO: Зачем? */
 
 /*=Module: About Us
 ------------------------------- */
-.module_about-us .module_title {
-    margin-top: 10px;
+.module_about-us {
+    border-bottom: 2px solid #0c5e67;
 }
 
-.module_about-us .module_content {
-    border-top: 2px solid #0c5e67;
+.module_about-us .module_title{
+    margin-top: 10px;
 }
 
 .module_about-us p {
     margin: 10px 0 10px 0;
+}
+
+.module_key-features .key {
+    background: #b1e1a7;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    margin-top: 5px;
 }
 
 /*=Module: Testimonials
@@ -246,7 +246,9 @@ title { /* TODO: Зачем? */
     margin-bottom: 15px;
 }
 
-.project_gallery {/* TODO: родитель? */
+/*=Module: Gallery
+------------------------------------ */
+.project_gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -273,15 +275,11 @@ title { /* TODO: Зачем? */
     display: block;
 }
 
-.project_gallery .item img {/* TODO: родитель? */
+.project_gallery .item img {
     border: 10px solid #254f5e;
     height: 170px;
     width: 260px;
     display: block;
-}
-
-.project_gallery .item:hover {/* TODO: родитель? зачем grey? */
-    color: grey;
 }
 
 /*=Module: Services
@@ -322,22 +320,15 @@ title { /* TODO: Зачем? */
 /*=Footer
 ----------------------------------- */
 .footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding: 10px;
     text-align: center;
     color: #fff;
+    border-top: 2px solid #0c5e67;
 }
 
 .footer a {
     color: #fff;
-}
-
-/* TODO: что это? кому принадлежит? какому модулю? */
-.key {
-    background: #b1e1a7;
-    border-radius: 15px;
-    height: 200px;
-    width: 300px;
-    margin-top: 5px;
 }
