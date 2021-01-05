@@ -19,9 +19,6 @@ body {
 
 /* =Header
 ------------------------------------------------- */
-/* TODO: .header .logo {} */
-/* TODO: .header .menu {} */
-
 .header {
     padding-top: 100px;
     background: url("../images/hat.jpg") no-repeat top;
@@ -30,7 +27,7 @@ body {
 
 .header .logo {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 10px;/* TODO: ниже лишняя пустая строка */
 
 }
 
@@ -58,10 +55,7 @@ body {
     width: 240px;
 }
 
-.menu_features img {
-    margin: 30px -55px;
-}
-
+/* TODO: переделай остальные пункты меню как .menu_features */
 .menu_demo {
     background: linear-gradient(0deg, #b5d9f3, #2b9aa8);
     margin-right: 15px;
@@ -97,6 +91,7 @@ body {
 }
 
 /*=Module: Columns
+TODO: удали Module:, оставь только Columns (в остальных проектах тоже)
 ----------------------------- */
 .columns {
     display: flex;
@@ -168,7 +163,7 @@ body {
     border-bottom: 2px solid #0c5e67;
 }
 
-.module_about-us .module_title{
+.module_about-us .module_title{/* TODO: название класса слиплось c {*/
     margin-top: 10px;
 }
 
@@ -176,6 +171,7 @@ body {
     margin: 10px 0 10px 0;
 }
 
+/* TODO: это уже стили другого модуля, не module_about-us поэтому напиши комментарий-секцию */
 .module_key-features .key {
     background: #b1e1a7;
     border-radius: 15px;
@@ -247,20 +243,21 @@ body {
 }
 
 /*=Module: Gallery
+Это не модуль, это элемент внутри модуля .module_project
 ------------------------------------ */
-.project_gallery {
+.project_gallery {/* TODO: родитель? */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.project_gallery .item {
+.project_gallery .item {/* TODO: родитель? */
     display: block;
     position: relative;
     margin: 10px 15px;
 }
 
-.project_gallery .item .shadow {
+.project_gallery .item .shadow {/* TODO: родитель? */
     position: absolute;
     top: 10px;
     left: 10px;
@@ -271,11 +268,11 @@ body {
     display: none;
 }
 
-.project_gallery .item:hover .shadow {
+.project_gallery .item:hover .shadow {/* TODO: родитель? */
     display: block;
 }
 
-.project_gallery .item img {
+.project_gallery .item img {/* TODO: родитель? */
     border: 10px solid #254f5e;
     height: 170px;
     width: 260px;

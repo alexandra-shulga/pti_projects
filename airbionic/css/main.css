@@ -14,6 +14,7 @@ body {
 }
 
 /*=Module: Basic Styles
+TODO: удали Module:
 ---------------------------------- */
 
 a:hover {
@@ -40,7 +41,7 @@ a:hover {
     width: 25%;
     padding-left: 15px;
 }
-
+/* TODO: Это относится к модулю .module_services, там просто .item */
 .column_columns {
     display: flex;
 }
@@ -56,6 +57,7 @@ a:hover {
 }
 
 /*=Module: Header
+TODO: удали Module:
 ---------------------------------- */
 .header {
     background: #fff;
@@ -68,7 +70,7 @@ a:hover {
     padding: 150px 0 0 598px;
 }
 
-.logo_menu a {
+.logo_menu a {/* TODO: я вижу логотип и 2 меню в header, больше ничего */
     text-decoration: none;
 }
 
@@ -117,6 +119,7 @@ a:hover {
 }
 
 /*=Module:Column left
+TODO: это не модуль просто в левой колонке лежит .menu3
 ----------------------------- */
 .column_left ul {
     background: #ececec;
@@ -135,6 +138,7 @@ a:hover {
 }
 
 /*=Module:About Us
+TODO: пробел после :
 ------------------------------- */
 .module_about-us a {
     color: #2faed8;
@@ -146,6 +150,7 @@ a:hover {
 }
 
 /*=Module:Our Advantages
+TODO: пробел после :
 --------------------------------------- */
 .module_our-advantages h1 {
     color: #8c8686;
@@ -155,11 +160,11 @@ a:hover {
     border-bottom: 2px solid #8c8686;
 }
 
-.our-advantages-text {
+.our-advantages-text {/* TODO: родитель? */
     padding: 0 20px;
 }
 
-.module_title {
+.module_title {/* TODO: родитель? */
     color: #2faeda;
     font-size: 13px;
     margin-bottom: -10px;
@@ -176,6 +181,7 @@ a:hover {
 }
 
 /*=Module:Contact Us
+TODO: пробел после :, назови .module_contact-form
 ---------------------------- */
 .module_contact-us h1 {
     color: #8c8686;
@@ -219,6 +225,7 @@ a:hover {
 }
 
 /*=Module:Column Right
+TODO: назови .module_contact-us и убери .column_right
 ---------------------------------------- */
 .column_right .contact-form {
     display: flex;
@@ -258,6 +265,7 @@ a:hover {
 }
 
 /*=Module: Software Development
+TODO: .module_services с двумя .item (по 50%)
 ------------------------- */
 .module_software-development h3 {
     color: #2faed8;
@@ -321,6 +329,7 @@ a:hover {
 }
 
 /*=Module:Featured Project
+TODO: пробел после :
 ------------------------------------------ */
 .module_featured-project {
     border-top: 2px dotted #a1a1a1;
@@ -346,6 +355,7 @@ a:hover {
 }
 
 /*=Module:Footer
+TODO: это не модуль, просто Footer как и Header
 ---------------------------- */
 .footer {
     background: #eeeeee;
@@ -354,7 +364,7 @@ a:hover {
     flex-direction: row;
 }
 
-.copyright {
+.copyright {/* TODO: родитель? */
     background: url("../images/2.gif") no-repeat;
     color: #2faed8;
     font-family: Arial, Helvetica, sans-serif;

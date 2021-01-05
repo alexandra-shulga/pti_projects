@@ -21,6 +21,7 @@ body {
 }
 
 /*=Module: Basic Styles
+TODO: удали Module:, это просто Basic Styles (и в остальных проектах)
 ---------------------------------------- */
 h3 {
     font-family: "Times New Roman", serif;
@@ -33,6 +34,7 @@ a:hover {
 }
 
 /*=Module: Menu
+TODO: удали Module:, это просто меню
 ------------------------------------------ */
 .menu {
     background-color: #ececec;
@@ -49,7 +51,7 @@ a:hover {
     padding-left: 221px;
 }
 
-.menu2 {
+.menu2 {/* TODO: добавь комментарий-секцию, это уже не .menu */
     display: flex;
     flex-direction: row;
     font-size: 12px;
@@ -66,7 +68,7 @@ a:hover {
     text-decoration: none;
 }
 
-.menu2 .item:first-child {
+.menu2 .item:first-child {/* TODO: сделай через класс .item.active */
     padding: 7px 30px;
     background: #043a4f;
     border-top-left-radius: 5px;
@@ -107,6 +109,7 @@ a:hover {
 }
 
 /*=Module: Header menu
+TODO: это не модуль
 ------------------------------------ */
 .header {
     background-color: #218fbb;
@@ -124,7 +127,7 @@ a:hover {
     margin: -4px 0 0 245px;
 }
 
-.menu1 .item2 {/* TODO: родитель? */
+.menu1 .item2 {/* TODO: родитель header? */
     color: #fff;
     font-size: 12px;
     background: #1F6988;
@@ -149,6 +152,7 @@ a:hover {
 }
 
 /*=Module: Content
+TODO: это модуль баннер, а не Content
 ----------------------------------------- */
 .module_content {
     background: #1f617a;
@@ -170,6 +174,7 @@ a:hover {
 }
 
 /*=Module: Numbers
+TODO: это модуль баннер, и пагинация принадлежит ему
 ----------------------------------------- */
 .pagination {
     display: flex;
@@ -179,7 +184,7 @@ a:hover {
     margin: -70px 0 -10px 490px;
 }
 
-.pagination .item1 {/* TODO: родитель? */
+.pagination .item1 {/* TODO: родитель? .module_banner? */
     background-color: #2fbaf1;
     border-radius: 4px;
     padding: 10px 15px;
@@ -188,7 +193,7 @@ a:hover {
     text-decoration: none;
 }
 
-.pagination .item2 {
+.pagination .item2 {/* TODO: зачем все кнопки нумеровать если они одинаковые? просто .item и .item.active */
     background-color: #218fbb;
     border-radius: 4px;
     padding: 10px 15px;
