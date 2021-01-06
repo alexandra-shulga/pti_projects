@@ -17,7 +17,7 @@ body {
     position: relative;
 }
 
-/* =Header
+/* =Header menu
 ------------------------------------------------- */
 .header {
     padding-top: 100px;
@@ -27,8 +27,7 @@ body {
 
 .header .logo {
     display: inline-block;
-    margin-bottom: 10px;/* TODO: ниже лишняя пустая строка */
-
+    margin-bottom: 10px;
 }
 
 .header .menu {
@@ -55,43 +54,36 @@ body {
     width: 240px;
 }
 
-/* TODO: переделай остальные пункты меню как .menu_features */
-.menu_demo {
-    background: linear-gradient(0deg, #b5d9f3, #2b9aa8);
+.header .menu .menu_demo {
+    background: url(../images/menu_2_text.png) no-repeat 15px 30px, linear-gradient(0deg, #b5d9f3, #2b9aa8);
     margin-right: 15px;
-    padding: 0 20px;
+    padding: 63px 20px;
     width: 200px;
+    color: #fff;
+    text-decoration: none;
+    height: 130px;
 }
 
-.menu_demo img {
-    margin: 30px -40px;
-}
-
-.menu_requirements {
-    background: linear-gradient(0deg, #de5c36, #dac391);
+.header .menu .menu_requirements {
+    background: url(../images/menu_3_text.png)no-repeat 14px 30px,linear-gradient(0deg, #de5c36, #dac391);
     margin-right: 15px;
     width: 200px;
+    color: #fff;
+    text-decoration: none;
+    height: 130px;
+    padding: 60px 20px;
 }
 
-.menu_requirements img {
-    margin: 30px -85px;
-}
-
-.menu_support {
-    background: linear-gradient(0deg, #a6b33a, #e0e893);
+.header .menu .menu_support {
+    background: url(../images/menu_4_text.png) no-repeat 15px 30px, linear-gradient(0deg, #a6b33a, #e0e893);
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    padding: 0 40px;
+    padding: 60px 20px;
     height: 130px;
-    width: 240px;
+    width: 240px;;
 }
 
-.menu_support img {
-    margin: 32px -50px;
-}
-
-/*=Module: Columns
-TODO: удали Module:, оставь только Columns (в остальных проектах тоже)
+/*= Columns
 ----------------------------- */
 .columns {
     display: flex;
@@ -163,7 +155,7 @@ TODO: удали Module:, оставь только Columns (в остальны
     border-bottom: 2px solid #0c5e67;
 }
 
-.module_about-us .module_title{/* TODO: название класса слиплось c {*/
+.module_about-us .module_title {
     margin-top: 10px;
 }
 
@@ -171,7 +163,8 @@ TODO: удали Module:, оставь только Columns (в остальны
     margin: 10px 0 10px 0;
 }
 
-/* TODO: это уже стили другого модуля, не module_about-us поэтому напиши комментарий-секцию */
+/*=Module: Key Features
+------------------------------- */
 .module_key-features .key {
     background: #b1e1a7;
     border-radius: 15px;
@@ -242,22 +235,19 @@ TODO: удали Module:, оставь только Columns (в остальны
     margin-bottom: 15px;
 }
 
-/*=Module: Gallery
-Это не модуль, это элемент внутри модуля .module_project
------------------------------------- */
-.project_gallery {/* TODO: родитель? */
+.module_project .gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.project_gallery .item {/* TODO: родитель? */
+.module_project .gallery .item {
     display: block;
     position: relative;
     margin: 10px 15px;
 }
 
-.project_gallery .item .shadow {/* TODO: родитель? */
+.module_project .shadow {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -268,11 +258,11 @@ TODO: удали Module:, оставь только Columns (в остальны
     display: none;
 }
 
-.project_gallery .item:hover .shadow {/* TODO: родитель? */
+.module_project .gallery .item:hover .shadow {
     display: block;
 }
 
-.project_gallery .item img {/* TODO: родитель? */
+.module_project .gallery .item img {
     border: 10px solid #254f5e;
     height: 170px;
     width: 260px;

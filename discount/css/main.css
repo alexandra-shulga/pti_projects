@@ -166,7 +166,8 @@ a:hover {
     text-align: right;
 }
 
-/* --------------- Participants */
+/*=Module: Participants
+----------------------------------- */
 .participants-economy {
     margin-bottom: 20px;
     color: #fff;
