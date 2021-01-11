@@ -20,7 +20,7 @@ a:hover {
     text-decoration: none;
 }
 
-/*=Module: Columns
+/*= Columns
 ----------------------------------- */
 .columns {
     display: flex;
@@ -41,16 +41,6 @@ a:hover {
     padding-left: 15px;
 }
 
-.column_columns .column_right {
-    width: 50%;
-    padding-bottom: 20px;
-}
-
-.column_columns .column_left {
-    width: 50%;
-    padding-bottom: 20px;
-}
-
 /*= Header
 ---------------------------------- */
 .header {
@@ -58,15 +48,6 @@ a:hover {
     height: 300px;
     display: flex;
     flex-direction: column;
-}
-
-.header .menu2 {
-    padding: 148px 0 0 590px;
-    margin: 100px 2px;
-}
-
-.header .menu1 a {
-    text-decoration: none;
 }
 
 .header .logo {
@@ -78,6 +59,10 @@ a:hover {
     justify-content: flex-end;
     margin: -20px 60px;
     padding: 0 0 0 20px;
+}
+
+.header .menu1 a {
+    text-decoration: none;
 }
 
 .header .menu1 .home {
@@ -101,6 +86,8 @@ a:hover {
 
 .header .menu2 {
     background: url("../images/hat.jpg") no-repeat;
+    padding: 148px 0 0 590px;
+    margin: 100px 2px;
 }
 
 .header .menu2 a {
@@ -115,7 +102,7 @@ a:hover {
 
 /*= Column left
 ----------------------------- */
-.column_left .menu3 {
+.menu3 {
     background: #ececec;
     margin: 15px 15px;
     padding: 10px 40px;
@@ -123,11 +110,11 @@ a:hover {
     border: 2px solid #d8d8d8;
 }
 
-.column_left li {
+.menu3 li {
     font-weight: bold;
 }
 
-.column_left li::marker {
+.menu3 li::marker {
     color: #2faed8;
 }
 
@@ -152,15 +139,15 @@ a:hover {
     border-bottom: 2px solid #8c8686;
 }
 
-.module_our-advantages .text-information {
-    padding: 0 20px;
-}
+/*.module_our-advantages .text-information {*/
+/*    padding: 0 20px;*/
+/*}*/
 
-.module_our-advantages .module_title {
-    color: #2faeda;
-    font-size: 13px;
-    margin-bottom: -10px;
-}
+/*.module_our-advantages .module_title {*/
+/*    color: #2faeda;*/
+/*    font-size: 13px;*/
+/*    margin-bottom: -10px;*/
+/*}*/
 
 .module_our-advantages p {
     line-height: 20px;
@@ -172,7 +159,7 @@ a:hover {
     color: #2faeda;
 }
 
-/*=Module: Contact Us
+/*=Module: Contact Form
 ---------------------------- */
 .module_contact-form h1 {
     color: #8c8686;
@@ -215,7 +202,7 @@ a:hover {
     color: #6b6b6b;
 }
 
-/*=Module: Column Right
+/*= Column Right
 ---------------------------------------- */
 .module_contact-us {
     display: flex;
@@ -257,10 +244,21 @@ a:hover {
 /*=Module: Services
 ------------------------------ */
 .module_services .item {
-    width: 45%;
+    width: 50%;
+    box-sizing: border-box;
     float: left;
     padding: 0 15px 40px 12px;
 }
+
+/*.column_columns .column_right {*/
+/*    width: 50%;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+/*.column_columns .column_left {*/
+/*    width: 50%;*/
+/*    padding-bottom: 20px;*/
+/*}*/
 
 .module_services .item h3 {
     color: #2faed8;
@@ -291,7 +289,7 @@ a:hover {
     background-position: 75px 6px;
 }
 
-/*=Module: Featured Project
+/*= Module: Featured Project
 ------------------------------------------ */
 .module_featured-project h4 {
     color: #2faed8;
@@ -301,6 +299,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
 }
+
 /*help: igor----------------------------------------!!!*/
 .module_featured-project .item1 img {
     border: 5px solid #ddd;
