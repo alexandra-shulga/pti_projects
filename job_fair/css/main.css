@@ -67,43 +67,17 @@ a:hover {
 }
 
 .menu2 .item.active {
-    padding: 7px 30px;
     background: #043a4f;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    text-decoration: none;
 }
 
-.menu2 .item1 {
-    padding: 7px 30px;
+.menu2 .item_login {
     background: #89c160;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     margin: -25px 6px 4px 0;
-    color: #fff;
-    text-decoration: none;
 }
 
-.menu2 .item2 {
-    margin: -25px 10px 4px 71px;
-    padding: 7px 18px 0 15px;
+.menu2 .item_exit {
     background: #74b8d2;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.menu2 .item3 {
-    background: #1f617a;
-    padding: 3px 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: #cdf1ff;
-    font-size: 20px;
-    margin: -8px 0 -8px 35px;
-    height: 18px;
-    text-decoration: none;
+    margin: -25px 10px 4px 71px;
 }
 
 /*= Header
@@ -150,7 +124,7 @@ a:hover {
     margin: -5px 0;
 }
 
-/*=Module: Banner
+/*= Module: Banner
 ----------------------------------------- */
 .module_banner {
     background: #1f617a;
@@ -158,17 +132,18 @@ a:hover {
     padding: 0 170px 0 30px;
 }
 
+.module_banner .toggler {
+    background: #1f617a;
+    padding: 3px 5px;
+    color: #cdf1ff;
+    font-size: 20px;
+    margin: -8px 0 -8px 35px;
+    height: 18px;
+}
+
 .module_banner p {
     color: #fff;
     font-size: 12px;
-}
-
-.module_content {
-    height: 400px;
-    border: 7px solid #043a4f;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top: none;
 }
 
 .module_banner .pagination {
@@ -177,15 +152,6 @@ a:hover {
     padding: 10px 15px;
     color: #fff;
     margin: -70px 0 -10px 490px;
-}
-
-.module_banner .pagination .item.active {
-    background-color: #2fbaf1;
-    border-radius: 4px;
-    padding: 10px 15px;
-    margin: 5px;
-    color: #fff;
-    text-decoration: none;
 }
 
 .module_banner .pagination .item {
@@ -197,7 +163,21 @@ a:hover {
     color: #fff;
 }
 
-/*=Module: Footer
+.module_banner .pagination .item.active {
+    background-color: #2fbaf1;
+}
+
+/*= Module: Content
+----------------------------------------- */
+.module_content {
+    height: 400px;
+    border: 7px solid #043a4f;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+}
+
+/*= Footer
 --------------------------------------- */
 .footer {
     font-family: Tahoma, serif;
