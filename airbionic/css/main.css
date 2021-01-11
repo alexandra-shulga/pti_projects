@@ -13,8 +13,7 @@ body {
     position: relative;
 }
 
-/*=Module: Basic Styles
-TODO: удали Module:
+/*= Basic Styles
 ---------------------------------- */
 
 a:hover {
@@ -41,10 +40,6 @@ a:hover {
     width: 25%;
     padding-left: 15px;
 }
-/* TODO: Это относится к модулю .module_services, там просто .item */
-.column_columns {
-    display: flex;
-}
 
 .column_columns .column_right {
     width: 50%;
@@ -56,59 +51,59 @@ a:hover {
     padding-bottom: 20px;
 }
 
-/*=Module: Header
-TODO: удали Module:
+/*= Header
 ---------------------------------- */
 .header {
     background: #fff;
-    height: 100px;
+    height: 300px;
     display: flex;
     flex-direction: column;
 }
 
-.header_menu {
-    padding: 150px 0 0 598px;
+.header .menu2 {
+    padding: 148px 0 0 590px;
+    margin: 100px 2px;
 }
 
-.logo_menu a {/* TODO: я вижу логотип и 2 меню в header, больше ничего */
+.header .menu1 a {
     text-decoration: none;
 }
 
-.logo {
+.header .logo {
     margin: 25px 0 0 40px;
 }
 
-.logo_menu {
+.header .menu1 {
     display: flex;
     justify-content: flex-end;
     margin: -20px 60px;
     padding: 0 0 0 20px;
 }
 
-.logo_menu .home {
+.header .menu1 .home {
     margin: 0 35px;
     padding: 0 0 0 20px;
-    background: url("../images/5.gif") no-repeat 0 2px;
+    background: url("../images/home.small.gif") no-repeat 0 2px;
 }
 
-.logo_menu .home:hover {
+.header .menu1 .home:hover {
     background-position: 0 -14px;
 }
 
-.logo_menu .contact-us {
+.header .menu1 .contact-us {
     padding: 0 0 0 20px;
-    background: url("../images/4.gif") no-repeat 0 4px;
+    background: url("../images/mail.small.gif") no-repeat 0 4px;
 }
 
-.logo_menu .contact-us:hover {
+.header .menu1 .contact-us:hover {
     background-position: 0 -12px;
 }
 
-.header_menu {
-    background: url("../images/8.jpg") no-repeat;
+.header .menu2 {
+    background: url("../images/hat.jpg") no-repeat;
 }
 
-.header_menu a {
+.header .menu2 a {
     padding: 5px 10px;
     background: #fff;
     border-top-left-radius: 8px;
@@ -118,10 +113,9 @@ TODO: удали Module:
     font-weight: bold;
 }
 
-/*=Module:Column left
-TODO: это не модуль просто в левой колонке лежит .menu3
+/*= Column left
 ----------------------------- */
-.column_left ul {
+.column_left .menu3 {
     background: #ececec;
     margin: 15px 15px;
     padding: 10px 40px;
@@ -137,8 +131,7 @@ TODO: это не модуль просто в левой колонке леж�
     color: #2faed8;
 }
 
-/*=Module:About Us
-TODO: пробел после :
+/*=Module: About Us
 ------------------------------- */
 .module_about-us a {
     color: #2faed8;
@@ -149,8 +142,7 @@ TODO: пробел после :
     color: #6b6b6b;
 }
 
-/*=Module:Our Advantages
-TODO: пробел после :
+/*=Module: Our Advantages
 --------------------------------------- */
 .module_our-advantages h1 {
     color: #8c8686;
@@ -160,11 +152,11 @@ TODO: пробел после :
     border-bottom: 2px solid #8c8686;
 }
 
-.our-advantages-text {/* TODO: родитель? */
+.module_our-advantages .text-information {
     padding: 0 20px;
 }
 
-.module_title {/* TODO: родитель? */
+.module_our-advantages .module_title {
     color: #2faeda;
     font-size: 13px;
     margin-bottom: -10px;
@@ -180,10 +172,9 @@ TODO: пробел после :
     color: #2faeda;
 }
 
-/*=Module:Contact Us
-TODO: пробел после :, назови .module_contact-form
+/*=Module: Contact Us
 ---------------------------- */
-.module_contact-us h1 {
+.module_contact-form h1 {
     color: #8c8686;
     font-size: 16px;
     margin: 25px 0;
@@ -191,32 +182,32 @@ TODO: пробел после :, назови .module_contact-form
     border-bottom: 2px solid #8c8686;
 }
 
-.module_contact-us .field {
+.module_contact-form .field {
     display: flex;
     flex-direction: column;
     color: #6b6b6b;
 }
 
-.module_contact-us .field input {
+.module_contact-form .field input {
     margin: 3px 300px 8px 0;
     font-size: 10px;
 }
 
-.module_contact-us .field textarea {
+.module_contact-form .field textarea {
     margin: 3px 300px 8px 0;
     height: 100px;
 }
 
-.module_contact-us .file {
+.module_contact-form .file {
     border: 1px solid #a9a9a9;
 }
 
-.module_contact-us .field-code {
+.module_contact-form .field-code {
     margin: 5px 300px 7px 58px;
     border: 1px solid #a9a9a9;
 }
 
-.module_contact-us button {
+.module_contact-form button {
     border: 2px solid #d8d8d8;
     padding: 0 20px;
     background: #ececec;
@@ -224,10 +215,9 @@ TODO: пробел после :, назови .module_contact-form
     color: #6b6b6b;
 }
 
-/*=Module:Column Right
-TODO: назови .module_contact-us и убери .column_right
+/*=Module: Column Right
 ---------------------------------------- */
-.column_right .contact-form {
+.module_contact-us {
     display: flex;
     flex-direction: column;
     background: #ececec;
@@ -237,42 +227,47 @@ TODO: назови .module_contact-us и убери .column_right
     border: 2px solid #d8d8d8;
 }
 
-.column_right p {
+.module_contact-us p {
     margin: 12px 0 15px 0;
 }
 
-.column_right a {
+.module_contact-us a {
     color: #2faed8;
     margin: 4px 2px;
 }
 
-.column_right .contact-us {
+.module_contact-us .contact-us {
     padding: 0 25px;
-    background: url("../images/12.gif") no-repeat 0 -16px;
+    background: url("../images/mail.big.gif") no-repeat 0 -16px;
 }
 
-.column_right .contact-us:hover {
+.module_contact-us .contact-us:hover {
     background-position: 0 2px;
 }
 
-.column_right .call-us {
+.module_contact-us .call-us {
     padding: 5px 25px;
-    background: url("../images/11.gif") no-repeat 0 -30px;
+    background: url("../images/phone.gif") no-repeat 0 -30px;
 }
 
-.column_right .call-us:hover {
+.module_contact-us .call-us:hover {
     background-position: 0 0;
 }
 
-/*=Module: Software Development
-TODO: .module_services с двумя .item (по 50%)
-------------------------- */
-.module_software-development h3 {
+/*=Module: Services
+------------------------------ */
+.module_services .item {
+    width: 45%;
+    float: left;
+    padding: 0 15px 40px 12px;
+}
+
+.module_services .item h3 {
     color: #2faed8;
     margin-bottom: -10px;
 }
 
-.module_software-development p {
+.module_services .item p {
     background: linear-gradient(to bottom, #f3f3f3, #fff);
     border-top: 3px solid #d8d8d8;
     padding: 5px 10px;
@@ -281,81 +276,37 @@ TODO: .module_services с двумя .item (по 50%)
     color: #6b6b6b;
 }
 
-.module_software-development a {
+.module_services .item a {
     margin-left: 150px;
     color: #2faed8;
-    /*background: url("../images/10.gif") no-repeat;*/
     text-decoration: none;
 }
 
-.module_software-development .learn_more {
+.module_services .item .learn_more {
     padding: 0 20px 0 0;
-    background: url("../images/7.gif") no-repeat 75px -9px;
+    background: url("../images/arrow.gif") no-repeat 75px -9px;
 }
 
-.module_software-development .learn_more:hover {
+.module_services .item .learn_more:hover {
     background-position: 75px 6px;
 }
 
-/*=Module: Web Development
-------------------------------- */
-.module_web-development h3 {
-    color: #2faed8;
-    margin-bottom: -10px;
-}
-
-.module_web-development p {
-    background: linear-gradient(to bottom, #f3f3f3, #fff);
-    border-top: 3px solid #d8d8d8;
-    padding: 5px 10px;
-    font-size: 12px;
-    line-height: 20px;
-    color: #6b6b6b;
-}
-
-.module_web-development a {
-    color: #2faed8;
-    margin-left: 150px;
-    text-decoration: none;
-}
-
-.module_web-development .learn_more {
-    padding: 0 20px 0 0;
-    background: url("../images/7.gif") no-repeat 75px -9px;
-}
-
-.module_web-development .learn_more:hover {
-    background-position: 75px 6px;
-}
-
-/*=Module:Featured Project
-TODO: пробел после :
+/*=Module: Featured Project
 ------------------------------------------ */
-.module_featured-project {
-    border-top: 2px dotted #a1a1a1;
-}
-
-.module_featured-project h3 {
+.module_featured-project h4 {
     color: #2faed8;
 }
 
 .module_featured-project .gallery {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
-
-.module_featured-project .item {
-    background: url("../images/6.gif") no-repeat;
-    padding: 2px 60px 70px 90px;
-}
-
-.module_featured-project .item img {
+/*help: igor----------------------------------------!!!*/
+.module_featured-project .item1 img {
     border: 5px solid #ddd;
 }
 
-/*=Module:Footer
-TODO: это не модуль, просто Footer как и Header
+/*= Footer
 ---------------------------- */
 .footer {
     background: #eeeeee;
@@ -364,8 +315,8 @@ TODO: это не модуль, просто Footer как и Header
     flex-direction: row;
 }
 
-.copyright {/* TODO: родитель? */
-    background: url("../images/2.gif") no-repeat;
+.footer .copyright {
+    background: url("../images/ab.gif") no-repeat;
     color: #2faed8;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
