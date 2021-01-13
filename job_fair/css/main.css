@@ -68,6 +68,7 @@ a:hover {
 
 .menu2 .item.active {
     background: #043a4f;
+    padding: 5px 30px;
 }
 
 .menu2 .item_login {
@@ -94,21 +95,29 @@ a:hover {
     cursor: pointer;
 }
 
-.header .menu1 {
-    margin: -4px 0 0 245px;
+.header .module_news{
+    margin: -5px 0 0 240px;
     display: flex;
 }
 
-.header .menu1 .item2 {
+.module_news .previous,
+.next {
+    background: 0;
+    border: 0;
+    color: #cdf1ff;
+}
+
+.header .module_news .item2 {
     color: #fff;
     font-size: 12px;
     background: #1F6988;
     border: 2px solid #fff;
     border-radius: 5px;
-    padding: 4px 30px;
+    padding: 2px 10px 6px 10px;
+    height: 13px;
 }
 
-.header .menu1 .item3 {
+.header .item3 {
     color: #fff;
     font-size: 12px;
     background: url("../images/1.gif") no-repeat;
@@ -116,7 +125,7 @@ a:hover {
     margin: -5px 10px;
 }
 
-.header .menu1 .item4 {
+.header .item4 {
     color: #fff;
     font-size: 12px;
     background: url("../images/2.gif") no-repeat;
@@ -129,16 +138,19 @@ a:hover {
 .module_banner {
     background: #1f617a;
     border: 7px solid #043a4f;
-    padding: 0 170px 0 30px;
+    padding: 0 170px 30px 30px;
 }
 
 .module_banner .toggler {
+    display: block;
     background: #1f617a;
-    padding: 3px 5px;
     color: #cdf1ff;
-    font-size: 20px;
-    margin: -8px 0 -8px 35px;
-    height: 18px;
+    font-size: 18px;
+    height: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0;
+    margin: -20px 0 0 850px;
 }
 
 .module_banner p {
@@ -148,16 +160,14 @@ a:hover {
 
 .module_banner .pagination {
     display: flex;
-    flex-direction: row;
-    padding: 10px 15px;
     color: #fff;
-    margin: -70px 0 -10px 490px;
+    margin: 5px 0 -50px 565px;
 }
 
 .module_banner .pagination .item {
     background-color: #218fbb;
     border-radius: 4px;
-    padding: 10px 15px;
+    padding: 5px 10px;
     margin: 5px;
     text-decoration: none;
     color: #fff;

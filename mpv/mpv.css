@@ -20,7 +20,7 @@ body {
 /*= Header
 ----------------------------- */
 .header {
-    background: linear-gradient(#272a30, #000 80%);
+    background: linear-gradient(to top, #0a0a0c 0%, #2f3239 32.8%, #000000 32.9%, #000000 76.9%, #17181c 77%, #303339 100%);
 }
 
 .header img {
@@ -37,26 +37,25 @@ body {
     font-size: 18px;
     color: #a8aebe;
 }
-/*help Igor-----------------------------------!!!*/
-.blabla {
-    background: #2d3037;
-    height: 80px;
-}
 
 .header .menu {
     background: #fd6003;
-    height: 30px;
-    padding: 30px 0 0 100px;
+    padding: 10px 0 10px 100px;
+    margin: 80px 0;
 }
 
 .header .menu .item {
     padding: 0 60px;
     color: #000;
+    font-weight: bold;
 }
 
 .header .menu .item.active {
-    padding: 0 60px;
+    padding:10px 30px 5px 30px;
     color: #fd6003;
+    background: #17181c;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 .header a {

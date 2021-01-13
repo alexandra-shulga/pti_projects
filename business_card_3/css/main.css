@@ -272,7 +272,6 @@ body {
 /*=Module: Services
 ---------------------------------- */
 .module_service {
-    display: flex;
     margin: 10px 0 0 5px;
     height: 500px;
 }
@@ -283,6 +282,8 @@ body {
     margin: 5px 0 0 5px;
     height: 250px;
     color: #beebb3;
+    width: 32%;
+    float: left;
 }
 
 .module_service ul {
