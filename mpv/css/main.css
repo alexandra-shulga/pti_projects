@@ -1,13 +1,14 @@
-body {
-    font-family: Arial, serif;
-    background: #000;
-    color: #d6d5d5;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Tahoma, serif;
+    font-size: 13px;
+    background: #000;
+    color: #d6d5d5;
 }
 
 .page {
@@ -17,14 +18,47 @@ body {
     position: relative;
 }
 
+/*= Basic styles
+----------------------------- */
+h4  {
+    color: #fd6703;
+    font-family: Arial, sans-serif, bold;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+p {
+    margin: 15px 0;
+}
+
+a {
+    color: #d6d5d5;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    margin: 15px 0;
+}
+
+li {
+    padding: 0 0 0 25px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    background: url("../images/mpv.png3.png") no-repeat, left;
+}
+
 /*= Header
 ----------------------------- */
 .header {
     background: linear-gradient(to top, #0a0a0c 0%, #2f3239 32.8%, #000000 32.9%, #000000 76.9%, #17181c 77%, #303339 100%);
 }
 
-.header img {
-    margin: -120px 0 -60px 800px;
+.header .logo {
+    text-decoration: none;
 }
 
 .header .logo img {
@@ -33,48 +67,41 @@ body {
 
 .header p {
     margin: -35px 200px;
-    font-family: "Times New Roman", serif, regular;
     font-size: 18px;
     color: #a8aebe;
+}
+
+.header .car {
+    margin: -120px 0 -60px 800px;
 }
 
 .header .menu {
     background: #fd6003;
     padding: 10px 0 10px 100px;
-    margin: 80px 0;
+    margin: 80px 0 25px 0;
 }
 
 .header .menu .item {
-    padding: 0 60px;
+    padding: 10px 30px 5px 30px;
     color: #000;
     font-weight: bold;
-}
-
-.header .menu .item.active {
-    padding:10px 30px 5px 30px;
-    color: #fd6003;
-    background: #17181c;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
 }
 
-.header a {
-    text-decoration: none;
+.header .menu .item.active,
+.header .menu .item:hover {
+    color: #fd6003;
+    background: #17181c;
 }
 
 /*= Columns
 -------------------------------*/
 .columns {
-    display: flex;
-    margin: 50px 0;
+    display: flex;/* TODO: не исподьзовать в этом проекте flex */
     background: #2f3239;
-}
-
-.columns .module_title  {
-    color: #fd6703;
-    font-family: Arial, sans-serif, bold;
-    font-size: 18px;
-    padding: 20px 0;
 }
 
 .column_left {
@@ -99,30 +126,15 @@ body {
     margin: 0 30px;
 }
 
-.columns p {
-    padding: 10px 0;
-}
-
-.columns a {
-    color: #d6d5d5;
-}
-
-.columns a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.columns li{
-    padding: 0 0 20px 25px;
-    list-style-type: none;
-    background: url("./images/mpv.png3.png") no-repeat, left;
-}
-
 /*= Column Right
 ---------------------------------- */
-.column_right .gallery img {
+.gallery {
+    width: 290px;
+}
+
+.gallery img {
     border: 5px solid #fff;
-    margin: 13px -40px 7px 50px;
+    margin: 0 4px 15px 0;
 }
 
 /*= Footer
@@ -131,13 +143,13 @@ body {
     font-family: Tahoma, serif;
     bottom: 0;
     width: 100%;
-    border-bottom: 15px solid #fd6a03;
+    border-bottom: 9px solid #fd6a03;
 }
 
 .footer h3 {
     color: #fd6703;
     font-family: Arial, serif, regular;
-    margin: 10px 30px;
+    margin: 25px 30px 15px;
 }
 
 .footer p {

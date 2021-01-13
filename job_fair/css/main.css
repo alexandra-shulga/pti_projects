@@ -2,20 +2,19 @@
     font-family: Verdana, serif;
 }
 
-.page1 {
-    width: 1530px;
+.grid {
+    width: 1015px;
     margin: 0 auto;
-    min-height: 100%;
-    padding-bottom: 120px;
     position: relative;
 }
 
 .page2 {
-    width: 950px;
+    width: 1015px;
     margin: 0 auto;
     min-height: 100%;
     padding-bottom: 120px;
     position: relative;
+    margin-top: -31px;
 }
 
 /*= Basic Styles
@@ -35,7 +34,7 @@ a:hover {
 .menu {
     background-color: #ececec;
     font-size: 10px;
-    padding: 5px 280px;
+    padding: 5px 0;
 }
 
 .menu .item {
@@ -53,13 +52,15 @@ a:hover {
     display: flex;
     flex-direction: row;
     font-size: 12px;
-    margin: -4px 0;
 }
 
 .menu2 .item {
-    margin: -25px 12px 4px 0;
+    margin: 0 5px 0 0;
     color: #fff;
-    padding: 7px 18px 0 18px;
+    padding: 7px 13px 9px 13px;
+    min-width: 128px;
+    box-sizing: border-box;
+    text-align: center;
     background: #0b6588;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -68,17 +69,16 @@ a:hover {
 
 .menu2 .item.active {
     background: #043a4f;
-    padding: 5px 30px;
 }
 
 .menu2 .item_login {
     background: #89c160;
-    margin: -25px 6px 4px 0;
+    margin-right: 59px;
 }
 
 .menu2 .item_exit {
     background: #74b8d2;
-    margin: -25px 10px 4px 71px;
+    min-width: 92px;
 }
 
 /*= Header
@@ -86,28 +86,30 @@ a:hover {
 .header {
     background-color: #218fbb;
     color: #fff;
-    padding: 5px 280px;
+    padding: 5px 0;
     height: 90px;
 }
 
 .header img {
     height: 20px;
-    cursor: pointer;
 }
 
-.header .module_news{
-    margin: -5px 0 0 240px;
+.header .module_news {
     display: flex;
+    position: absolute;
+    top: 23px;
+    left: 328px;
 }
 
-.module_news .previous,
-.next {
+.header .module_news .previous,
+.header .module_news .next {
     background: 0;
     border: 0;
     color: #cdf1ff;
+    cursor: pointer;
 }
 
-.header .module_news .item2 {
+.header .module_news a {
     color: #fff;
     font-size: 12px;
     background: #1F6988;
@@ -117,20 +119,24 @@ a:hover {
     height: 13px;
 }
 
-.header .item3 {
+.header .item_login {
     color: #fff;
     font-size: 12px;
     background: url("../images/1.gif") no-repeat;
     padding: 10px 22px 20px 42px;
-    margin: -5px 10px;
+    position: absolute;
+    top: 15px;
+    left: 724px;
 }
 
-.header .item4 {
+.header .item_register {
     color: #fff;
     font-size: 12px;
     background: url("../images/2.gif") no-repeat;
     padding: 10px 35px 18px 55px;
-    margin: -5px 0;
+    position: absolute;
+    top: 15px;
+    left: 835px;
 }
 
 /*= Module: Banner
@@ -150,7 +156,8 @@ a:hover {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: 0;
-    margin: -20px 0 0 850px;
+    margin: -25px 0 0 941px;
+    cursor: pointer;
 }
 
 .module_banner p {
@@ -165,7 +172,7 @@ a:hover {
 }
 
 .module_banner .pagination .item {
-    background-color: #218fbb;
+    background: #218fbb;
     border-radius: 4px;
     padding: 5px 10px;
     margin: 5px;
@@ -173,8 +180,9 @@ a:hover {
     color: #fff;
 }
 
-.module_banner .pagination .item.active {
-    background-color: #2fbaf1;
+.module_banner .pagination .item.active,
+.module_banner .pagination .item:hover {
+    background: #2fbaf1;
 }
 
 /*= Module: Content
