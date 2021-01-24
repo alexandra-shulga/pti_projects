@@ -92,11 +92,6 @@ a:hover {
     margin: 60px 0;
 }
 
-.header .menu2 .active {
-    color: #fff;
-    background-color: #2faed8;
-}
-
 .header .menu2 a {
     padding: 5px 16px 0 16px;
     margin: 0 -2px 0 -2px;
@@ -110,11 +105,16 @@ a:hover {
     border-bottom: none;
 }
 
+.header .menu2 .active {
+    color: #fff;
+    background-color: #2faed8;
+}
+
 /*= Column left
 ----------------------------- */
 .menu3 {
     background: #ececec;
-    margin:14px 11px 0 12px;;
+    margin: 14px 11px 0 12px;
     padding: 10px 40px;
     border-radius: 10px;
     border: 1px solid #d8d8d8;
