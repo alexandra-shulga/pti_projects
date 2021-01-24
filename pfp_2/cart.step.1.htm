@@ -52,30 +52,11 @@
             <a href="#"><img alt="#" src="images/1.gif"/></a>
         </div>
 
-        <div class="page_menu">
-            <div class="link">
-                <a href="cart.step.1.htm"><img alt="#" src="images/3.gif"/></a>
-                Your details
-            </div>
-
-            <div class="link">
-                <a href="cart.step.2.htm"><img alt="#" src="images/8.gif"/></a>
-                Payment type
-            </div>
-
-            <div class="link">
-                <a href="cart.step.3.htm"><img alt="#" src="images/7.gif"/></a>
-                Payment
-            </div>
-
-            <div class="link">
-                <a href="cart.step.4.htm"><img alt="#" src="images/10.gif"/></a>
-                Finished
-            </div>
-        </div>
-
-        <div class="arrow">
-            <img alt="#" src="images/2.gif"/>
+        <div class="pagination pagination_step_1"><!-- TODO: разметку не трогай, пиши тока CSS-->
+            <a href="cart.step.1.htm" class="item item_details active">Your details</a>
+            <a href="cart.step.2.htm" class="item item_payment-type">Payment type</a>
+            <a href="cart.step.3.htm" class="item item_payment">Payment</a>
+            <a href="cart.step.4.htm" class="item item_finish">Finished</a>
         </div>
 
         <div class="module module_contact">
@@ -101,11 +82,15 @@
                     <label class="field" for="voormaam">Voornaam *</label>
                     <input type="text" id="voormaam"><br>
 
-                    <label class="field" for="achternaam">Achternaam *</label>
-                    <input type="text" id="achternaam"><br>
+                    <div class="field">
+                        <label class="field" for="achternaam">Achternaam *</label>
+                        <input type="text" id="achternaam">
+                    </div>
 
-                    <label class="field" for="bedrijf">Bedrijf</label>
-                    <input type="text" id="bedrijf"><br>
+                    <div class="field">
+                        <label class="field" for="bedrijf">Bedrijf</label>
+                        <input type="text" id="bedrijf">
+                    </div>
 
                     <label class="field" for="telefoon">Telefoon nr. *</label>
                     <input type="text" id="telefoon"><br>
@@ -196,4 +181,4 @@
     </div>
 </body>
 </html>
-<!-- TODO: 1. Формы с использованием .field (+ для .purchase) 2. Переделать ссылки (картинку на фон) 3. Декоративные картинки в page_menu  -->
+<!-- TODO: 1. Формы с использованием .field (+ для .purchase) 2. Переделать ссылки (картинку на фон) 3. Секцию pagination сделай -->
