@@ -18,6 +18,12 @@ body {
     position: relative;
 }
 
+.grid {
+    width: 1520px;
+    margin: 0 auto;
+    position: relative;
+}
+
 /*= Basic styles
 ----------------------------- */
 h4  {
@@ -48,7 +54,7 @@ li {
     padding: 0 0 0 25px;
     margin-bottom: 10px;
     list-style-type: none;
-    background: url("../images/mpv.png3.png") no-repeat, left;
+    background: url("../images/dot.png") no-repeat, left;
 }
 
 /*= Header
