@@ -63,16 +63,23 @@ li {
     background: linear-gradient(to top, #0a0a0c 0%, #2f3239 32.8%, #000000 32.9%, #000000 76.9%, #17181c 77%, #303339 100%);
 }
 
+.header > .grid {
+    background-image: url("../images/header.car.png");
+    background-repeat: no-repeat;
+    background-position: 590px 0;
+    height: 280px;
+}
+
 .header .logo {
     text-decoration: none;
 }
 
 .header .logo img {
-    margin: 80px 0 35px 180px;
+    margin: 80px 0 35px 40px;
 }
 
 .header p {
-    margin: -35px 200px;
+    margin: -35px 60px;
     font-size: 18px;
     color: #a8aebe;
 }
@@ -80,7 +87,7 @@ li {
 .header .menu {
     background: #fd6003;
     padding: 10px 0 10px 0;
-    margin: 80px 0 25px 0;
+    margin: 0 0 25px 0;
 }
 
 .header .menu .item {

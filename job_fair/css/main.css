@@ -1,6 +1,6 @@
 ﻿body {
     font-family: Verdana, serif;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .grid {
@@ -145,7 +145,7 @@ a:hover {
 .module_banner {
     background: #1f617a;
     border-radius: 7px 0 7px 7px;
-    padding: 1px 170px 30px 30px;
+    padding: 1px 170px 9px 45px;
     margin-bottom: 7px;
     position: relative;
 }
@@ -191,26 +191,26 @@ a:hover {
     background: #2fbaf1;
 }
 
-.module_banner .navigation .previous {
+.module_banner .previous,
+.module_banner .next {
     background: #218fbb;
     color: #ffff;
     border: 0;
     font-size: 18px;
     cursor: pointer;
     border-radius: 5px;
-    padding: 1px 5px 1px 2px;
+    position: absolute;
+    bottom: 10px;
 }
 
-.module_banner .navigation .next {
-    background: #218fbb;
-    color: #ffff;
-    border: 0;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 5px;
+.module_banner .previous {
+    padding: 1px 5px 1px 2px;
+    left: 10px;
+}
+
+.module_banner .next {
     padding: 1px 2px 1px 5px;
-    position: absolute;
-    margin-left: 900px;
+    right: 10px;
 }
 
 /*= Module: Content

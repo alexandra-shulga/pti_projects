@@ -86,6 +86,7 @@ body {
 /*= Columns
 ----------------------------- */
 .columns {
+    display: flex;
     margin-top: 15px;
 }
 
@@ -287,7 +288,7 @@ body {
 
 .module_service h3 {
     font-size: 25px;
-    font-family: -webkit-pictograph, serif;
+    font-family: serif;
 }
 
 .module_service ul {

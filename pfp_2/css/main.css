@@ -131,58 +131,71 @@ h3 {
 
 /*=Module Basic Content
 --------------------------- */
-.page_menu {
-    background-color: #3a0201;
+.pagination {
     border: 1px solid #fff;
     margin-top: 4px;
     color: #fff8b7;
-    display: flex;
-    flex-direction: row;
     height: 80px;
+    padding: 10px 0 30px;
+    text-align: center;
+    background-color: #3a0201;
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
 }
 
-/*.page_menu .item_details {*/
-/*    background: url("../images/9.gif")no-repeat;*/
-/*    width: 1000px;*/
-/*}*/
-
-/*.page_menu .item_payment-type {*/
-/*    background: url("../images/8.gif")no-repeat;*/
-/*    width: 1000px;*/
-/*}*/
-
-/*.page_menu .item_payment {*/
-/*    background: url("../images/7.gif")no-repeat;*/
-/*    width: 1000px;*/
-/*}*/
-
-/*.page_menu .item_finish {*/
-/*    background: url("../images/10.gif")no-repeat;*/
-/*    width: 1000px;*/
-/*}*/
-
-.page_menu .pagination_step_1 {
-    background: url("../images/2.gif")no-repeat;
-    width: 1000px;
+.pagination.pagination_step_1 {
+    background-image: url("../images/2.gif");
 }
 
-.page_menu .pagination_step_1 .active {
-    background: url("../images/3.gif");
+.pagination.pagination_step_2 {
+    background-image: url("../images/26.gif");
 }
 
-.page_menu .pagination_step_2 {
-    background: url("../images/26.gif")no-repeat;
-    width: 1000px;
+.pagination.pagination_step_3 {
+    background-image: url("../images/16.gif");
 }
 
-.page_menu .pagination_step_3 {
-    background: url("../images/16.gif")no-repeat;
-    width: 1000px;
+.pagination.pagination_step_4 {
+    background-image: url("../images/11.gif");
 }
 
-.page_menu .pagination_step_4 {
-    width: 1000px;
-    background: url("../images/11.gif")no-repeat;
+.pagination .item {
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    display: inline-block;
+    padding: 30px 0 0 0;
+}
+
+.pagination .item_details {
+    background-image: url("../images/9.gif");
+}
+
+.pagination .item_details.active {
+    background-image: url("../images/3.gif");
+}
+
+.pagination .item_payment-type {
+    background-image: url("../images/8.gif");
+}
+
+.pagination .item_payment-type.active {
+    background-image: url("../images/4.gif");
+}
+
+.pagination .item_payment {
+    background-image: url("../images/7.gif");
+}
+
+.pagination .item_payment.active {
+    background-image: url("../images/5.gif");
+}
+
+.pagination .item_finish {
+    background-image: url("../images/10.gif");
+}
+
+.pagination .item_finish.active {
+    background-image: url("../images/6.gif");
 }
 
 /*=Module: Contact Us
