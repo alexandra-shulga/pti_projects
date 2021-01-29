@@ -77,10 +77,6 @@ li {
     color: #a8aebe;
 }
 
-.header .car {
-    margin: -120px 0 -60px 800px;
-}
-
 .header .menu {
     background: #fd6003;
     padding: 10px 0 10px 0;
@@ -110,13 +106,15 @@ li {
 }
 
 .columns .grid {
-    display: flex;/* TODO: не исподьзовать в этом проекте flex */
+    overflow: hidden;
 }
 
 .column {
     padding: 0 45px 10px 45px;
     border-left: 1px dashed #d6d5d5;
     width: 33%;
+    float: left;
+    height: 430px;
 }
 
 .column_right {

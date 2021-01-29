@@ -138,6 +138,51 @@ h3 {
     color: #fff8b7;
     display: flex;
     flex-direction: row;
+    height: 80px;
+}
+
+/*.page_menu .item_details {*/
+/*    background: url("../images/9.gif")no-repeat;*/
+/*    width: 1000px;*/
+/*}*/
+
+/*.page_menu .item_payment-type {*/
+/*    background: url("../images/8.gif")no-repeat;*/
+/*    width: 1000px;*/
+/*}*/
+
+/*.page_menu .item_payment {*/
+/*    background: url("../images/7.gif")no-repeat;*/
+/*    width: 1000px;*/
+/*}*/
+
+/*.page_menu .item_finish {*/
+/*    background: url("../images/10.gif")no-repeat;*/
+/*    width: 1000px;*/
+/*}*/
+
+.page_menu .pagination_step_1 {
+    background: url("../images/2.gif")no-repeat;
+    width: 1000px;
+}
+
+.page_menu .pagination_step_1 .active {
+    background: url("../images/3.gif");
+}
+
+.page_menu .pagination_step_2 {
+    background: url("../images/26.gif")no-repeat;
+    width: 1000px;
+}
+
+.page_menu .pagination_step_3 {
+    background: url("../images/16.gif")no-repeat;
+    width: 1000px;
+}
+
+.page_menu .pagination_step_4 {
+    width: 1000px;
+    background: url("../images/11.gif")no-repeat;
 }
 
 /*=Module: Contact Us
@@ -149,8 +194,10 @@ h3 {
 }
 
 .sing_in a {
-    margin: 5px 0 0 -80px;
+    background: url("../images/15.gif")no-repeat;
+    margin: -6px 0 0 15px;
     color: #c38b1a;
+    padding: 8px 40px;
 }
 
 .contact_form {
@@ -179,14 +226,11 @@ select {
     flex-direction: row;
 }
 
-.order img {
-    margin: -4px -290px 31px 205px;
-    height: 34px;
-    width: 323px;
-}
-
 .order a {
+    background: url("../images/14.gif")no-repeat;
     color: #ba9a1c;
+    padding: 8px 40px;
+    margin: 0 0 0 220px;
 }
 
 .advertising {
@@ -332,15 +376,11 @@ select {
     text-align: center;
 }
 
-.order1 img {
-    margin: -20px -290px -14px 205px;
-    height: 34px;
-    width: 323px;
-}
-
 .order1 a {
-    margin: 2px 0 0 55px;
+    background: url("../images/21.gif")no-repeat;
+    margin: 0 0 0 216px;
     color: #ba9a1c;
+    padding: 8px 84px;
 }
 
 /*=Module: Table

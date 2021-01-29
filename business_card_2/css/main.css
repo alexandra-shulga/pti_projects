@@ -45,11 +45,6 @@ ul {
     margin: 25px 0 0 35px;
 }
 
-b {
-    color: #a1c6dd;
-    margin-left: 117px; /* TODO: вряд ли весь важный текст в проекте должен быть с таким отступом. пиши через родителя (модуль) */
-}
-
 dt {
     background: url("../images/dot.gif")no-repeat 0;
     margin: 4px -8px;
@@ -168,6 +163,11 @@ textarea {
     color: #a1c6dd;
 }
 
+.module_testimonials b {
+    color: #a1c6dd;
+    margin-left: 117px;
+}
+
 /* =Module: About
 /*------------------------------------------------- *!*/
 .module_about .module_content {
@@ -244,7 +244,7 @@ textarea {
 }
 
 .module_pricing .price_menu1,
-.price_menu2 { /* TODO: через родителя*/
+.module_pricing .price_menu2 {
     display: flex;
     background: url("../images/pricing_desk.gif")0 0;
     margin: 0 0 10px 0;

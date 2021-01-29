@@ -52,11 +52,13 @@
             <a href="#"><img alt="#" src="images/1.gif"/></a>
         </div>
 
-        <div class="pagination pagination_step_1"><!-- TODO: разметку не трогай, пиши тока CSS-->
-            <a href="cart.step.1.htm" class="item item_details active">Your details</a>
-            <a href="cart.step.2.htm" class="item item_payment-type">Payment type</a>
-            <a href="cart.step.3.htm" class="item item_payment">Payment</a>
-            <a href="cart.step.4.htm" class="item item_finish">Finished</a>
+        <div class="page_menu">
+            <div class="pagination pagination_step_1">
+                <a href="cart.step.1.htm" class="item item_details active">Your details</a>
+                <a href="cart.step.2.htm" class="item item_payment-type">Payment type</a>
+                <a href="cart.step.3.htm" class="item item_payment">Payment</a>
+                <a href="cart.step.4.htm" class="item item_finish">Finished</a>
+            </div>
         </div>
 
         <div class="module module_contact">
@@ -65,22 +67,25 @@
 
                     <h3>Already a customer?</h3>
 
-                    <img alt="#" src="images/15.gif"/>
                     <a href="#">SING IN</a>
                 </div>
 
                 <h4>Persoonlijke Gegevens</h4>
 
                 <div class="contact_form">
-                    <label class="field" for="productnaam">Productnaam *</label>
-                    <select id="productnaam">
-                        <option>Mr.</option>
-                        <option>Mrs.</option>
-                        <option>Ms.</option>
-                    </select><br>
+                    <div class="field">
+                        <label class="field" for="productnaam">Productnaam *</label>
+                        <select id="productnaam">
+                            <option>Mr.</option>
+                            <option>Mrs.</option>
+                            <option>Ms.</option>
+                        </select>
+                    </div>
 
-                    <label class="field" for="voormaam">Voornaam *</label>
-                    <input type="text" id="voormaam"><br>
+                    <div class="field">
+                        <label class="field" for="voormaam">Voornaam *</label>
+                        <input type="text" id="voormaam">
+                    </div>
 
                     <div class="field">
                         <label class="field" for="achternaam">Achternaam *</label>
@@ -92,54 +97,70 @@
                         <input type="text" id="bedrijf">
                     </div>
 
-                    <label class="field" for="telefoon">Telefoon nr. *</label>
-                    <input type="text" id="telefoon"><br>
+                    <div class="field">
+                        <label class="field" for="telefoon">Telefoon nr. *</label>
+                        <input type="text" id="telefoon">
+                    </div>
 
-                    <label class="field" for="e-mail *">E-mail *</label>
-                    <input type="text" id="e-mail *"><br>
+                    <div class="field">
+                        <label class="field" for="e-mail *">E-mail *</label>
+                        <input type="text" id="e-mail *">
+                    </div>
 
-                    <label class="field" for="fax nr.">Fax nr.</label>
-                    <input type="text" id="fax nr."><br>
+                    <div class="field">
+                        <label class="field" for="fax nr.">Fax nr.</label>
+                        <input type="text" id="fax nr.">
+                    </div>
 
-                    <label class="field" for="website">Website</label>
-                    <input type="text" id="website"><br>
+                    <div class="field">
+                        <label class="field" for="website">Website</label>
+                        <input type="text" id="website">
+                    </div>
 
-                    <label class="field" for="adres">Adres *</label>
-                    <input type="text" id="adres"><br>
+                    <div class="field">
+                        <label class="field" for="adres">Adres *</label>
+                        <input type="text" id="adres">
+                    </div>
 
-                    <label class="field" for="provincie">Provincie *</label>
-                    <select id="provincie">
-                        <option value="Other">Other</option>
-                        <option value="AK">Alaska</option>
-                        <option value="AL">Alabama</option>
-                        <option value="AR">Arkansas</option>
-                        <option value="AZ">Arizona</option>
-                        <option value="CA">California</option>
-                        <option value="CO">Colorado</option>
-                        <option value="CT">Connecticut</option>
-                        <option value="DC">District of Columbia</option>
-                        <option value="DE">Delaware</option>
-                    </select><br>
+                    <div class="field">
+                        <label class="field" for="provincie">Provincie *</label>
+                        <select id="provincie">
+                            <option value="Other">Other</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DC">District of Columbia</option>
+                            <option value="DE">Delaware</option>
+                        </select>
+                    </div>
 
-                    <label class="field" for="lang">Lang *</label>
-                    <select id="lang">
-                        <option value="AF">Afghanistan</option>
-                        <option value="AL">Albania</option>
-                        <option value="DZ">Algeria</option>
-                        <option value="AS">American Samoa</option>
-                        <option value="AD">Andorra</option>
-                        <option value="AO">Angola</option>
-                        <option value="AI">Anguilla</option>
-                        <option value="AQ">Antarctica</option>
-                        <option value="NL" selected="selected">Netherlands</option>
-                    </select><br>
+                    <div class="field">
+                        <label class="field" for="lang">Lang *</label>
+                        <select id="lang">
+                            <option value="AF">Afghanistan</option>
+                            <option value="AL">Albania</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AS">American Samoa</option>
+                            <option value="AD">Andorra</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarctica</option>
+                            <option value="NL" selected="selected">Netherlands</option>
+                        </select>
+                    </div>
 
-                    <label class="field" for="postcode">Postcode *</label>
-                    <input type="text" id="postcode">
+                    <div class="field">
+                        <label class="field" for="postcode">Postcode *</label>
+                        <input type="text" id="postcode">
+                    </div>
                 </div>
 
                 <div class="order">
-                    <img alt="#" src="images/14.gif"/><a href="#"> GA DOOR NAAR KASSA &gt; BETALING</a>
+                    <a href="#"> GA DOOR NAAR KASSA &gt; BETALING</a>
                 </div>
 
                 <div class="advertising">
@@ -181,4 +202,4 @@
     </div>
 </body>
 </html>
-<!-- TODO: 1. Формы с использованием .field (+ для .purchase) 2. Переделать ссылки (картинку на фон) 3. Секцию pagination сделай -->
+<!-- TODO: !!!!!!Секцию pagination сделай !!!!!!!! -->
