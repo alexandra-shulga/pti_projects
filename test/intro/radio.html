@@ -6,6 +6,10 @@
     <title>RADIO</title>
 </head>
 <body>
+    <header class="header"></header>
+
+    <img class="trans" src="Psychology.jpg">
+
    <form action="handler.php">
    <p><b>Do you want to subscribe?</b></p>
 <p><input name="age" type="radio" value="Age 12-16">Age 12-16</p>
@@ -13,6 +17,184 @@
 <p><input name="age" type="radio" value="Age 26-35" checked>Age 26-35</p>
 <p><input type="submit" value="Chose"></p>
    </form>
+
+<ul>
+    <li>1</li>
+    <li class="bob">Bob</li>
+    <li>1</li>
+    <li class="bad_boy">1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li></li>
+</ul>
+
+<div class="circle circle_1"></div>
+<div class="circle circle_2"></div>
+
+<p class="align">
+    Make America <img src="Psychology.jpg"> great again!
+</p>
+
+<input type="text">
+<input type="text">
+<input type="text">
+
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox" checked>
+<input type="checkbox">
+<input type="checkbox" checked>
+<input type="checkbox">
+
+<button>Send</button> ererwrewrewerewrewrewr
+
+<p class="space">rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr rewrrer ewrerewr </p>
+
+<p class="word">errewwrewrewrewrewrewrwrewrewrewrrwrwrewrwwerewrwerwrwerewrwrwerwerewrewrewrewrewrewr</p>
+
+<style>
+    .circle {
+        width: 30px;
+        height: 30px;
+        background: red;
+        margin: 30px;
+        border-radius: 100%;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-name: igor_animation;
+        position: relative;
+    }
+
+    .circle_2 {
+        animation-delay: 3s;
+        background: green;
+        top: -60px;
+    }
+
+    @keyframes igor_animation {
+        0% {
+            left: 0;
+        }
+
+        50% {
+            left: 500px;
+        }
+
+        100% {
+            left: 0;
+        }
+    }
+
+
+    @font-face {
+        font-family: "igorFont";
+        src: url("Baby Darling.ttf");
+    }
+
+    @media screen and (min-width: 500px) {
+        body {
+            background: #beffc7;
+        }
+    }
+
+    .trans {
+        width: 400px;
+        height: 200px;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+
+    .trans:hover {
+        transform: rotate(5deg) scale(1.2) translate(40px, 0);
+    }
+
+    body {
+        padding-top: 30px;
+    }
+
+    .header {
+        background: red;
+        height: 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .align {
+        font-family: igorFont;
+        font-size: 30px;
+    }
+
+    .align img {
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    .bob {
+        /*display: none;*/
+        visibility: hidden;
+    }
+
+    .space {
+        width: 400px;
+        /*white-space: nowrap;*/
+        background: #bca882;
+        height: 40px;
+        margin-bottom: 150px;
+        overflow: auto;
+    }
+
+    .word {
+        width: 400px;
+        background: #bca882;
+        word-break: break-all;
+    }
+
+    input[type="text"]:focus {
+        background: red;
+    }
+
+    input:checked {
+        width: 20px;
+        height: 20px;
+    }
+
+    li {
+        width: 100px;
+        margin: 5px 0;
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+
+    li:hover {
+        width: 600px;
+    }
+
+    li:not(.bad_boy) {
+        background: #ffe0e0;
+    }
+
+    button::before {
+        background: red;
+        color: white;
+        content: '+';
+    }
+
+    li::before {
+        content: '';
+        background: green;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        display: inline-block;
+    }
+</style>
 </body>
 </html>
 
