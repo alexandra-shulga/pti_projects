@@ -13,10 +13,10 @@ var b = {
 
 var entrance = {
     login: "admin",
-    password: "pass",
+    password: "pass"
 }
 
-var registrarion = {
+var registration = {
     city: "Ukraine",
     country: "Kyiv",
     eMail: "shulga.sasha12@gmail.com",
@@ -55,7 +55,7 @@ var sneakers = {
     availability: true,
 }
 
-var cats = ['exotic', 'persian' , 'semi-longhair', 'shorthair', 'somali', 'oriental' ]
+var cats = ['exotic', 'persian', 'semi-longhair', 'shorthair', 'somali', 'oriental']
 
 var tobaco = [
     {
@@ -92,4 +92,26 @@ var colors = ['red', 'yellow', 'brown', 'orange', 'green']
 
 var cars = ['Acura', 'Bentley', 'Shkoda', 'Audi', 'Renault']
 
-var top_pop_singer = ['Ariana Grande', true, 'Travis Skott', false, 'The Weeknd', true, 'Saweetie', true, 'Megan Three Station', true]
+var top_pop_singer = [
+    {
+        singer: 'Ariana Grande',
+        avard: true
+    },
+    {
+        singer: 'Travis Skott',
+        avard: false
+    },
+    {
+        singer: 'The Weeknd',
+        avard: true
+    },
+    {
+        singer: 'Saweetie',
+        avard: true
+    },
+    {
+        singer: 'Megan Three Station',
+        avard: true
+    }
+]
+
