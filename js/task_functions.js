@@ -13,9 +13,16 @@
 // => true
 // isUndefined('hello');
 // => false
-//TODO
 
+var isUndefined = function(value) {
+    return value === undefined;
 
+    // if (value === undefined) {
+    //     return true;
+    // } else {
+    //     return false;
+    // }
+};
 
 // Создать функцию isNull которая принимает в качестве единственного входящего параметра значение любого типа данных
 // и возвращает true если значение равно null иначе возвращает false.
