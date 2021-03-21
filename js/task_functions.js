@@ -29,7 +29,17 @@ var isUndefined = function(value) {
 // Пример работы:
 // isNull(null);
 // => true
-//TODO
+
+var isNull = function(value) {
+    return value === null;
+
+    // if (value === null ) {
+    //     return true;
+    // } else {
+    //     return false;
+    // }
+};
+isNull(null)
 
 
 
@@ -40,9 +50,17 @@ var isUndefined = function(value) {
 // => false
 // isBoolean(false);
 // => true
-//TODO
 
+var isBoolean = function(value) {
+    return value === false || value === true;
 
+    // if (value === false || value === true) {
+    //     return true;
+    // } else {
+    //     return false;
+    // }
+};
+isBoolean(true)
 
 // Создать функцию size которая принимает в качестве единственного входящего параметра массив и возвращает количество элементов в массиве.
 // Пример работы:
@@ -56,15 +74,16 @@ var isUndefined = function(value) {
 // Пример работы:
 // first([5, 4, 3, 2, 1]);
 // => 5
-//TODO
 
-
+var first = function(list) {
+    return list[0];
+};
+first([6, 41, 32, 32, 1]);
 
 // Создать функцию last которая принимает в качестве единственного входящего параметра массив произвольных значений и возвращает последнее из них.
 // Пример работы:
 // last([5, 4, 3, 2, 1]);
 // => 1
-
 
 
 
@@ -92,7 +111,6 @@ var isUndefined = function(value) {
 // Пример работы:
 // push([1, 2, 3, 4], 5);
 // => [1, 2, 3, 4, 5]
-
 
 
 
